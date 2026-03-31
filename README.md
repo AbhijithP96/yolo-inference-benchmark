@@ -273,8 +273,8 @@ All three backends are pre-loaded at startup, thus switching is instant with no 
 #### Live Demo Screenshot Example
 ![Screenshot2](results/screenshots/ONNX_388.png)
 
-> Real-time head detection running TensorRT FP16 backend at 190 FPS.
-> Low-light condition — model generalizes beyond controlled lighting.
+> Real-time head detection running ONNX Runtime with CUDAExecutionProvider backend at 190 FPS.
+> Low-light condition --> model generalizes beyond controlled lighting.
 
 ---
 
