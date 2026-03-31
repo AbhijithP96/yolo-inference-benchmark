@@ -270,6 +270,9 @@ uv run webcam/live_demo.py --source path/to/video.mp4
 
 All three backends are pre-loaded at startup, thus switching is instant with no reload delay. The HUD shows real-time FPS, latency, detection count, GPU utilization, GPU memory, and a rolling FPS history graph. The border color changes per backend.
 
+#### Live Demo Screenshot Example
+![Screenshot2](results/screenshots/ONNX_388.png)
+
 ---
 
 ## Important Notes
