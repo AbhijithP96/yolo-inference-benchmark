@@ -16,3 +16,8 @@ wheels/
 
 # misc
 deepstream
+results/screenshots
+results/benchmark_report.json
+results/onnx_stats.json
+results/pytorch_stats.json
+results/tensorrt_stats.json
