@@ -1,0 +1,5855 @@
+{
+  "meta": {
+    "frames": 200,
+    "source": "webcam",
+    "imgsz": 640,
+    "conf_thresh": 0.25,
+    "backends": [
+      "PyTorch",
+      "ONNX",
+      "TensorRT"
+    ]
+  },
+  "results": {
+    "PyTorch": {
+      "backend": "PyTorch",
+      "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "frame_samples": [
+        {
+          "frame_idx": 0,
+          "latency_ms": 51.580154002294876,
+          "fps": 19.38730155701956,
+          "preprocess_ms": 3.7417030034703203,
+          "inference_ms": 5.1856489953934215,
+          "postprocess_ms": 42.652802003431134,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 1,
+          "latency_ms": 24.10272799897939,
+          "fps": 41.48907957814336,
+          "preprocess_ms": 7.2032340031000786,
+          "inference_ms": 16.5641239946126,
+          "postprocess_ms": 0.33537000126671046,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 2,
+          "latency_ms": 13.04148599592736,
+          "fps": 76.67837854614754,
+          "preprocess_ms": 3.7037570000393316,
+          "inference_ms": 9.022815997013822,
+          "postprocess_ms": 0.3149129988742061,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 3,
+          "latency_ms": 9.294729999965057,
+          "fps": 107.58784816812963,
+          "preprocess_ms": 3.309093001007568,
+          "inference_ms": 5.75959800335113,
+          "postprocess_ms": 0.2260389956063591,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 4,
+          "latency_ms": 7.8628929986734875,
+          "fps": 127.17965259971176,
+          "preprocess_ms": 2.5404219995834865,
+          "inference_ms": 5.164803995285183,
+          "postprocess_ms": 0.1576670038048178,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 5,
+          "latency_ms": 7.085407996783033,
+          "fps": 141.1351330020836,
+          "preprocess_ms": 1.8467539994162507,
+          "inference_ms": 5.083028998342343,
+          "postprocess_ms": 0.1556249990244396,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 6,
+          "latency_ms": 7.120772002963349,
+          "fps": 140.43421128830474,
+          "preprocess_ms": 1.8805770014296286,
+          "inference_ms": 5.085698998300359,
+          "postprocess_ms": 0.154496003233362,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 7,
+          "latency_ms": 7.147224998334423,
+          "fps": 139.91444235112766,
+          "preprocess_ms": 1.8844899968826212,
+          "inference_ms": 5.0824669961002655,
+          "postprocess_ms": 0.18026800535153598,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 8,
+          "latency_ms": 7.3037949987337925,
+          "fps": 136.9151242844799,
+          "preprocess_ms": 2.067168999928981,
+          "inference_ms": 5.084254000394139,
+          "postprocess_ms": 0.15237199841067195,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 9,
+          "latency_ms": 7.05151200236287,
+          "fps": 141.8135571016419,
+          "preprocess_ms": 1.8310870000277646,
+          "inference_ms": 5.0723890017252415,
+          "postprocess_ms": 0.14803600060986355,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 10,
+          "latency_ms": 7.118790999811608,
+          "fps": 140.47329104428883,
+          "preprocess_ms": 1.8614209984662011,
+          "inference_ms": 5.09486499504419,
+          "postprocess_ms": 0.16250500630121678,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 11,
+          "latency_ms": 7.370503997663036,
+          "fps": 135.67593210953686,
+          "preprocess_ms": 2.1308279974618927,
+          "inference_ms": 5.094104999443516,
+          "postprocess_ms": 0.1455710007576272,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 12,
+          "latency_ms": 6.981229998928029,
+          "fps": 143.24123401657738,
+          "preprocess_ms": 1.7679910015431233,
+          "inference_ms": 5.072963998827618,
+          "postprocess_ms": 0.1402749985572882,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 13,
+          "latency_ms": 7.0463650044985116,
+          "fps": 141.91714442291652,
+          "preprocess_ms": 1.8122870023944415,
+          "inference_ms": 5.083662996185012,
+          "postprocess_ms": 0.15041500591905788,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 14,
+          "latency_ms": 7.213331999082584,
+          "fps": 138.63218830454267,
+          "preprocess_ms": 1.9658329983940348,
+          "inference_ms": 5.098501002066769,
+          "postprocess_ms": 0.14899799862178043,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 15,
+          "latency_ms": 7.0288720016833395,
+          "fps": 142.27033864900523,
+          "preprocess_ms": 1.8175200020777993,
+          "inference_ms": 5.069717997685075,
+          "postprocess_ms": 0.14163400192046538,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 16,
+          "latency_ms": 7.107474004442338,
+          "fps": 140.69696201139485,
+          "preprocess_ms": 1.901148003526032,
+          "inference_ms": 5.061714000476059,
+          "postprocess_ms": 0.14461200044024736,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 17,
+          "latency_ms": 6.938059996173251,
+          "fps": 144.13250974358235,
+          "preprocess_ms": 1.72026200016262,
+          "inference_ms": 5.075142995337956,
+          "postprocess_ms": 0.14265500067267567,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 18,
+          "latency_ms": 7.034600006591063,
+          "fps": 142.1544933703481,
+          "preprocess_ms": 1.830688001064118,
+          "inference_ms": 5.063289005192928,
+          "postprocess_ms": 0.14062300033401698,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 19,
+          "latency_ms": 7.119157999113668,
+          "fps": 140.46604951379075,
+          "preprocess_ms": 1.9101329962722957,
+          "inference_ms": 5.069924001873005,
+          "postprocess_ms": 0.13910100096836686,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 20,
+          "latency_ms": 7.110945000022184,
+          "fps": 140.62828498840594,
+          "preprocess_ms": 1.8996559956576675,
+          "inference_ms": 5.069774000730831,
+          "postprocess_ms": 0.1415150036336854,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 21,
+          "latency_ms": 7.024776998150628,
+          "fps": 142.35327331575994,
+          "preprocess_ms": 1.813953000237234,
+          "inference_ms": 5.071309002232738,
+          "postprocess_ms": 0.13951499568065628,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 22,
+          "latency_ms": 6.924405999598093,
+          "fps": 144.41671965191557,
+          "preprocess_ms": 1.7213989995070733,
+          "inference_ms": 5.064666998805478,
+          "postprocess_ms": 0.1383400012855418,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 23,
+          "latency_ms": 7.024382000963669,
+          "fps": 142.36127816835855,
+          "preprocess_ms": 1.7954049981199205,
+          "inference_ms": 5.081912997411564,
+          "postprocess_ms": 0.14706400543218479,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 24,
+          "latency_ms": 6.958926998777315,
+          "fps": 143.70031474330744,
+          "preprocess_ms": 1.8046219993266277,
+          "inference_ms": 5.01874500332633,
+          "postprocess_ms": 0.13555999612435699,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 25,
+          "latency_ms": 6.481463002273813,
+          "fps": 154.28615416753627,
+          "preprocess_ms": 1.7104750004364178,
+          "inference_ms": 4.632937001588289,
+          "postprocess_ms": 0.13805100024910644,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 26,
+          "latency_ms": 6.405296997400001,
+          "fps": 156.1207857193685,
+          "preprocess_ms": 1.6419809981016442,
+          "inference_ms": 4.618906001269352,
+          "postprocess_ms": 0.14440999802900478,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 27,
+          "latency_ms": 6.46791100007249,
+          "fps": 154.6094248960433,
+          "preprocess_ms": 1.7073950002668425,
+          "inference_ms": 4.62266500107944,
+          "postprocess_ms": 0.13785099872620776,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 28,
+          "latency_ms": 6.407790999219287,
+          "fps": 156.06002132744936,
+          "preprocess_ms": 1.6470050031784922,
+          "inference_ms": 4.6238290015026,
+          "postprocess_ms": 0.13695699453819543,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 29,
+          "latency_ms": 6.3619430002290756,
+          "fps": 157.18468398160638,
+          "preprocess_ms": 1.6273679939331487,
+          "inference_ms": 4.60049800312845,
+          "postprocess_ms": 0.1340770031674765,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 30,
+          "latency_ms": 6.437739000830334,
+          "fps": 155.33403884050298,
+          "preprocess_ms": 1.6679039981681854,
+          "inference_ms": 4.628139999113046,
+          "postprocess_ms": 0.1416950035491027,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 31,
+          "latency_ms": 6.418817996745929,
+          "fps": 155.791923140204,
+          "preprocess_ms": 1.6546179977012798,
+          "inference_ms": 4.625494002539199,
+          "postprocess_ms": 0.13870599650545046,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 32,
+          "latency_ms": 6.438333002733998,
+          "fps": 155.31970769069514,
+          "preprocess_ms": 1.673705002758652,
+          "inference_ms": 4.628501999832224,
+          "postprocess_ms": 0.13612600014312193,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 33,
+          "latency_ms": 6.468236999353394,
+          "fps": 154.6016325777745,
+          "preprocess_ms": 1.714243000606075,
+          "inference_ms": 4.618561993993353,
+          "postprocess_ms": 0.13543200475396588,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 34,
+          "latency_ms": 6.5358490028302185,
+          "fps": 153.00231072764532,
+          "preprocess_ms": 1.7737579983077012,
+          "inference_ms": 4.624539003998507,
+          "postprocess_ms": 0.1375520005240105,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 35,
+          "latency_ms": 6.526523997308686,
+          "fps": 153.220918273244,
+          "preprocess_ms": 1.7538979955133982,
+          "inference_ms": 4.634878001525067,
+          "postprocess_ms": 0.13774800027022138,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 36,
+          "latency_ms": 6.418128999939654,
+          "fps": 155.8086476618657,
+          "preprocess_ms": 1.6696390011929907,
+          "inference_ms": 4.611757998645771,
+          "postprocess_ms": 0.13673200010089204,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 37,
+          "latency_ms": 6.456598006479908,
+          "fps": 154.8803253658335,
+          "preprocess_ms": 1.6465330045321025,
+          "inference_ms": 4.647611000109464,
+          "postprocess_ms": 0.16245400183834136,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 38,
+          "latency_ms": 6.471521002822556,
+          "fps": 154.52317925938118,
+          "preprocess_ms": 1.7094370050472207,
+          "inference_ms": 4.624540997610893,
+          "postprocess_ms": 0.13754300016444176,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 39,
+          "latency_ms": 6.419094999728259,
+          "fps": 155.78520025678594,
+          "preprocess_ms": 1.661894995777402,
+          "inference_ms": 4.62412500201026,
+          "postprocess_ms": 0.13307500194059685,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 40,
+          "latency_ms": 6.581889996596146,
+          "fps": 151.93204391400562,
+          "preprocess_ms": 1.7553399957250804,
+          "inference_ms": 4.672832001233473,
+          "postprocess_ms": 0.15371799963759258,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 41,
+          "latency_ms": 6.606864000787027,
+          "fps": 151.35773944807661,
+          "preprocess_ms": 1.8040089998976327,
+          "inference_ms": 4.651133000152186,
+          "postprocess_ms": 0.15172200073720887,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 42,
+          "latency_ms": 6.525203003548086,
+          "fps": 153.25193705946756,
+          "preprocess_ms": 1.7234940023627132,
+          "inference_ms": 4.639833998226095,
+          "postprocess_ms": 0.16187500295927748,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 43,
+          "latency_ms": 6.565304000105243,
+          "fps": 152.31587143321462,
+          "preprocess_ms": 1.7628220011829399,
+          "inference_ms": 4.651044000638649,
+          "postprocess_ms": 0.15143799828365445,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 44,
+          "latency_ms": 6.637665996095166,
+          "fps": 150.65536599586125,
+          "preprocess_ms": 1.8075769985443912,
+          "inference_ms": 4.671319999033585,
+          "postprocess_ms": 0.15876899851718917,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 45,
+          "latency_ms": 7.212835000245832,
+          "fps": 138.64174072551464,
+          "preprocess_ms": 2.3014339967630804,
+          "inference_ms": 4.705088002083357,
+          "postprocess_ms": 0.20631300139939412,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 46,
+          "latency_ms": 7.224472996313125,
+          "fps": 138.41840096991592,
+          "preprocess_ms": 2.3222539966809563,
+          "inference_ms": 4.713485999673139,
+          "postprocess_ms": 0.18873299995902926,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 47,
+          "latency_ms": 10.928331001196057,
+          "fps": 91.50528108002536,
+          "preprocess_ms": 2.4161110050044954,
+          "inference_ms": 8.319665997987613,
+          "postprocess_ms": 0.19255399820394814,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 48,
+          "latency_ms": 10.614425998937804,
+          "fps": 94.21140625975168,
+          "preprocess_ms": 2.1490219951374456,
+          "inference_ms": 8.274436004285235,
+          "postprocess_ms": 0.19096799951512367,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 49,
+          "latency_ms": 11.384375000488944,
+          "fps": 87.83969255730344,
+          "preprocess_ms": 2.5806449993979186,
+          "inference_ms": 8.611708006355911,
+          "postprocess_ms": 0.19202199473511428,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 50,
+          "latency_ms": 11.398497998015955,
+          "fps": 87.73085718610136,
+          "preprocess_ms": 2.351766001083888,
+          "inference_ms": 8.846265998727176,
+          "postprocess_ms": 0.20046599820489064,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 51,
+          "latency_ms": 12.057035994075704,
+          "fps": 82.9391237192421,
+          "preprocess_ms": 2.8216469945618883,
+          "inference_ms": 9.002832004625816,
+          "postprocess_ms": 0.2325569948880002,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 52,
+          "latency_ms": 18.527886000811122,
+          "fps": 53.97269823207146,
+          "preprocess_ms": 9.525076995487325,
+          "inference_ms": 8.80252000206383,
+          "postprocess_ms": 0.200289003259968,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 53,
+          "latency_ms": 22.516627002914902,
+          "fps": 44.41162523456752,
+          "preprocess_ms": 10.915801001829095,
+          "inference_ms": 11.402297001041006,
+          "postprocess_ms": 0.19852900004480034,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 54,
+          "latency_ms": 11.149414000101388,
+          "fps": 89.69081244905844,
+          "preprocess_ms": 2.3961620026966557,
+          "inference_ms": 8.563163995859213,
+          "postprocess_ms": 0.19008800154551864,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 55,
+          "latency_ms": 10.691914998460561,
+          "fps": 93.52861485935696,
+          "preprocess_ms": 2.275318998727016,
+          "inference_ms": 8.225985002354719,
+          "postprocess_ms": 0.19061099737882614,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 56,
+          "latency_ms": 10.7204419982736,
+          "fps": 93.27973605575573,
+          "preprocess_ms": 2.2825859996373765,
+          "inference_ms": 8.247206998930778,
+          "postprocess_ms": 0.19064899970544502,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 57,
+          "latency_ms": 11.039380995498504,
+          "fps": 90.58478916596565,
+          "preprocess_ms": 2.3286509967874736,
+          "inference_ms": 8.501351003360469,
+          "postprocess_ms": 0.20937899535056204,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 58,
+          "latency_ms": 12.209486005303916,
+          "fps": 81.90352972808115,
+          "preprocess_ms": 2.4323870020452887,
+          "inference_ms": 9.573380004439969,
+          "postprocess_ms": 0.2037189988186583,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 59,
+          "latency_ms": 15.511880999838468,
+          "fps": 64.46671425666645,
+          "preprocess_ms": 6.4064780017361045,
+          "inference_ms": 8.911684999475256,
+          "postprocess_ms": 0.1937179986271076,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 60,
+          "latency_ms": 14.598966001358349,
+          "fps": 68.49800183841485,
+          "preprocess_ms": 5.550756999582518,
+          "inference_ms": 8.82906300103059,
+          "postprocess_ms": 0.2191460007452406,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 61,
+          "latency_ms": 21.029760006058495,
+          "fps": 47.551660109859,
+          "preprocess_ms": 12.372328004857991,
+          "inference_ms": 8.470399996440392,
+          "postprocess_ms": 0.1870320047601126,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 62,
+          "latency_ms": 20.613582004443742,
+          "fps": 48.51170455403755,
+          "preprocess_ms": 12.30181199935032,
+          "inference_ms": 8.126787004584912,
+          "postprocess_ms": 0.18498300050850958,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 63,
+          "latency_ms": 10.493628993572202,
+          "fps": 95.29591722868638,
+          "preprocess_ms": 2.2965179960010573,
+          "inference_ms": 8.017901003768202,
+          "postprocess_ms": 0.17920999380294234,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 64,
+          "latency_ms": 10.661444001016207,
+          "fps": 93.79592482075448,
+          "preprocess_ms": 2.2892249980941415,
+          "inference_ms": 8.182255005522165,
+          "postprocess_ms": 0.1899639973999001,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 65,
+          "latency_ms": 10.427713001263328,
+          "fps": 95.89830482281675,
+          "preprocess_ms": 2.259884000523016,
+          "inference_ms": 7.990309000888374,
+          "postprocess_ms": 0.17751999985193834,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 66,
+          "latency_ms": 10.448031003761571,
+          "fps": 95.71181399059529,
+          "preprocess_ms": 2.2679510002490133,
+          "inference_ms": 7.9940930008888245,
+          "postprocess_ms": 0.18598700262373313,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 67,
+          "latency_ms": 10.470102999533992,
+          "fps": 95.51004417478113,
+          "preprocess_ms": 2.302302003954537,
+          "inference_ms": 7.9885369996191,
+          "postprocess_ms": 0.1792639959603548,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 68,
+          "latency_ms": 10.435687996505294,
+          "fps": 95.82501894794864,
+          "preprocess_ms": 2.254546998301521,
+          "inference_ms": 7.993468003405724,
+          "postprocess_ms": 0.18767299479804933,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 69,
+          "latency_ms": 10.560195994912647,
+          "fps": 94.69521214206138,
+          "preprocess_ms": 2.252792000945192,
+          "inference_ms": 8.121496000967454,
+          "postprocess_ms": 0.18590799300000072,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 70,
+          "latency_ms": 10.421255996334367,
+          "fps": 95.95772336383885,
+          "preprocess_ms": 2.2130789948278107,
+          "inference_ms": 8.018182001251262,
+          "postprocess_ms": 0.18999500025529414,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 71,
+          "latency_ms": 10.577471999567933,
+          "fps": 94.54054806676376,
+          "preprocess_ms": 2.3771790001774207,
+          "inference_ms": 8.017430001928005,
+          "postprocess_ms": 0.18286299746250734,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 72,
+          "latency_ms": 10.374749996117316,
+          "fps": 96.38786480389827,
+          "preprocess_ms": 2.1953449977445416,
+          "inference_ms": 7.993785999133252,
+          "postprocess_ms": 0.18561899923952296,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 73,
+          "latency_ms": 10.694853001041338,
+          "fps": 93.5029214429251,
+          "preprocess_ms": 2.310939999006223,
+          "inference_ms": 8.206587001041044,
+          "postprocess_ms": 0.17732600099407136,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 74,
+          "latency_ms": 10.472838002897333,
+          "fps": 95.4851015286733,
+          "preprocess_ms": 2.2714619990438223,
+          "inference_ms": 8.024124006624334,
+          "postprocess_ms": 0.1772519972291775,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 75,
+          "latency_ms": 10.39099799527321,
+          "fps": 96.23714685104287,
+          "preprocess_ms": 2.2305889942799695,
+          "inference_ms": 7.984273004694842,
+          "postprocess_ms": 0.17613599629839882,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 76,
+          "latency_ms": 10.535408000578173,
+          "fps": 94.91801361134955,
+          "preprocess_ms": 2.36850500368746,
+          "inference_ms": 7.9888670006766915,
+          "postprocess_ms": 0.178035996214021,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 77,
+          "latency_ms": 10.472435998963192,
+          "fps": 95.48876690189402,
+          "preprocess_ms": 2.2491139970952645,
+          "inference_ms": 8.045290000154637,
+          "postprocess_ms": 0.1780320017132908,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 78,
+          "latency_ms": 10.599660003208555,
+          "fps": 94.34264869791072,
+          "preprocess_ms": 2.3991740017663687,
+          "inference_ms": 8.021358000405598,
+          "postprocess_ms": 0.1791280010365881,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 79,
+          "latency_ms": 10.508166000363417,
+          "fps": 95.1640847665916,
+          "preprocess_ms": 2.3026280032354407,
+          "inference_ms": 8.023465998121537,
+          "postprocess_ms": 0.182071999006439,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 80,
+          "latency_ms": 10.540852003032342,
+          "fps": 94.86899158742811,
+          "preprocess_ms": 2.3383330044453032,
+          "inference_ms": 8.01058399520116,
+          "postprocess_ms": 0.1919350033858791,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 81,
+          "latency_ms": 10.48103300126968,
+          "fps": 95.41044283315006,
+          "preprocess_ms": 2.281763001519721,
+          "inference_ms": 8.013545993890148,
+          "postprocess_ms": 0.18572400585981086,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 82,
+          "latency_ms": 10.44991899834713,
+          "fps": 95.69452166645222,
+          "preprocess_ms": 2.2701399939251132,
+          "inference_ms": 8.0027370058815,
+          "postprocess_ms": 0.17704199854051694,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 83,
+          "latency_ms": 10.559409005509224,
+          "fps": 94.7022697461822,
+          "preprocess_ms": 2.272038000228349,
+          "inference_ms": 8.107910005492158,
+          "postprocess_ms": 0.17946099978871644,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 84,
+          "latency_ms": 10.757177995401435,
+          "fps": 92.96118372564702,
+          "preprocess_ms": 2.325169996765908,
+          "inference_ms": 8.208820996514987,
+          "postprocess_ms": 0.22318700212053955,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 85,
+          "latency_ms": 10.955909005133435,
+          "fps": 91.27494574219683,
+          "preprocess_ms": 2.574939004261978,
+          "inference_ms": 8.19926599797327,
+          "postprocess_ms": 0.18170400289818645,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 86,
+          "latency_ms": 10.769207001430914,
+          "fps": 92.85734779423676,
+          "preprocess_ms": 2.412816000287421,
+          "inference_ms": 8.167789994331542,
+          "postprocess_ms": 0.18860100681195036,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 87,
+          "latency_ms": 10.474286005774047,
+          "fps": 95.47190132565989,
+          "preprocess_ms": 2.2849050001241267,
+          "inference_ms": 7.997286003956106,
+          "postprocess_ms": 0.192095001693815,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 88,
+          "latency_ms": 10.549785001785494,
+          "fps": 94.78866155383787,
+          "preprocess_ms": 2.3099540048860945,
+          "inference_ms": 8.057126993662678,
+          "postprocess_ms": 0.1827040032367222,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 89,
+          "latency_ms": 10.467541003890801,
+          "fps": 95.5334208510192,
+          "preprocess_ms": 2.2660680042463355,
+          "inference_ms": 8.022953996260185,
+          "postprocess_ms": 0.17851900338428095,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 90,
+          "latency_ms": 10.478529999090824,
+          "fps": 95.43323348664036,
+          "preprocess_ms": 2.271997000207193,
+          "inference_ms": 8.029591001104563,
+          "postprocess_ms": 0.1769419977790676,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 91,
+          "latency_ms": 10.390044000814669,
+          "fps": 96.24598316634572,
+          "preprocess_ms": 2.209699996456038,
+          "inference_ms": 7.993450002686586,
+          "postprocess_ms": 0.1868940016720444,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 92,
+          "latency_ms": 10.594621002383064,
+          "fps": 94.38751983436391,
+          "preprocess_ms": 2.2480379993794486,
+          "inference_ms": 8.17195600393461,
+          "postprocess_ms": 0.17462699906900525,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 93,
+          "latency_ms": 11.021820006135385,
+          "fps": 90.72911728220402,
+          "preprocess_ms": 2.251716003229376,
+          "inference_ms": 8.573234001232777,
+          "postprocess_ms": 0.19687000167323276,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 94,
+          "latency_ms": 11.308510001981631,
+          "fps": 88.42897957598007,
+          "preprocess_ms": 2.5556030013831332,
+          "inference_ms": 8.565723001083825,
+          "postprocess_ms": 0.1871839995146729,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 95,
+          "latency_ms": 10.793082001328003,
+          "fps": 92.65194129693057,
+          "preprocess_ms": 2.103516999341082,
+          "inference_ms": 8.49665099667618,
+          "postprocess_ms": 0.19291400531074032,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 96,
+          "latency_ms": 11.328864995448384,
+          "fps": 88.2700959365101,
+          "preprocess_ms": 2.5494669971521944,
+          "inference_ms": 8.532104999176227,
+          "postprocess_ms": 0.2472929991199635,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 97,
+          "latency_ms": 11.290423994068988,
+          "fps": 88.57063300061304,
+          "preprocess_ms": 2.777342997433152,
+          "inference_ms": 8.328432995767798,
+          "postprocess_ms": 0.18464800086803734,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 98,
+          "latency_ms": 11.025291001715232,
+          "fps": 90.70055383068143,
+          "preprocess_ms": 2.339713006222155,
+          "inference_ms": 8.5010689945193,
+          "postprocess_ms": 0.18450900097377598,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 99,
+          "latency_ms": 11.170520003361162,
+          "fps": 89.52134723353115,
+          "preprocess_ms": 2.4866110034054145,
+          "inference_ms": 8.465610997518525,
+          "postprocess_ms": 0.21829800243722275,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 100,
+          "latency_ms": 11.044443999708164,
+          "fps": 90.54326320332864,
+          "preprocess_ms": 2.504912998119835,
+          "inference_ms": 8.351092001248617,
+          "postprocess_ms": 0.18843900033971295,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 101,
+          "latency_ms": 11.595476004004013,
+          "fps": 86.24053032878442,
+          "preprocess_ms": 2.476943001965992,
+          "inference_ms": 8.93643999734195,
+          "postprocess_ms": 0.18209300469607115,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 102,
+          "latency_ms": 11.319391000142787,
+          "fps": 88.34397539473508,
+          "preprocess_ms": 2.8167690034024417,
+          "inference_ms": 8.31591399764875,
+          "postprocess_ms": 0.1867079990915954,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 103,
+          "latency_ms": 10.777575997053646,
+          "fps": 92.78524227278733,
+          "preprocess_ms": 2.3362260035355575,
+          "inference_ms": 8.258062000095379,
+          "postprocess_ms": 0.1832879934227094,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 104,
+          "latency_ms": 10.648668998328503,
+          "fps": 93.90844998158622,
+          "preprocess_ms": 2.2636479989159852,
+          "inference_ms": 8.196124996175058,
+          "postprocess_ms": 0.1888960032374598,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 105,
+          "latency_ms": 10.50566699996125,
+          "fps": 95.186721604986,
+          "preprocess_ms": 2.266474002681207,
+          "inference_ms": 8.058075000008103,
+          "postprocess_ms": 0.1811179972719401,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 106,
+          "latency_ms": 10.555178996582981,
+          "fps": 94.7402218686892,
+          "preprocess_ms": 2.342467996641062,
+          "inference_ms": 8.030351003981195,
+          "postprocess_ms": 0.1823599959607236,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 107,
+          "latency_ms": 10.547435995249543,
+          "fps": 94.80977182041111,
+          "preprocess_ms": 2.365472995734308,
+          "inference_ms": 8.00181200611405,
+          "postprocess_ms": 0.18015099340118468,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 108,
+          "latency_ms": 10.536682995734736,
+          "fps": 94.90652802260459,
+          "preprocess_ms": 2.3192499938886613,
+          "inference_ms": 8.029836004425306,
+          "postprocess_ms": 0.18759699742076918,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 109,
+          "latency_ms": 10.407980997115374,
+          "fps": 96.08011393152574,
+          "preprocess_ms": 2.2450269971159287,
+          "inference_ms": 7.984831005160231,
+          "postprocess_ms": 0.1781229948392138,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 110,
+          "latency_ms": 10.51221400120994,
+          "fps": 95.12743936576076,
+          "preprocess_ms": 2.3054720004438423,
+          "inference_ms": 8.026294999581296,
+          "postprocess_ms": 0.1804470011848025,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 111,
+          "latency_ms": 10.584464995190501,
+          "fps": 94.47808655934827,
+          "preprocess_ms": 2.2713779981131665,
+          "inference_ms": 8.124512998620048,
+          "postprocess_ms": 0.1885739984572865,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 112,
+          "latency_ms": 10.910514996794518,
+          "fps": 91.65470193604953,
+          "preprocess_ms": 2.33750999905169,
+          "inference_ms": 8.388415000808891,
+          "postprocess_ms": 0.18458999693393707,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 113,
+          "latency_ms": 10.529492006753571,
+          "fps": 94.9713432859443,
+          "preprocess_ms": 2.296748003573157,
+          "inference_ms": 8.05105100153014,
+          "postprocess_ms": 0.1816930016502738,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 114,
+          "latency_ms": 10.538177004491445,
+          "fps": 94.8930730214337,
+          "preprocess_ms": 2.307045004272368,
+          "inference_ms": 8.034810998651665,
+          "postprocess_ms": 0.19632100156741217,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 115,
+          "latency_ms": 10.452425995026715,
+          "fps": 95.67156949743553,
+          "preprocess_ms": 2.238098000816535,
+          "inference_ms": 8.035899998503737,
+          "postprocess_ms": 0.17842799570644274,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 116,
+          "latency_ms": 10.417377001431305,
+          "fps": 95.99345400119475,
+          "preprocess_ms": 2.22518000373384,
+          "inference_ms": 8.007469994481653,
+          "postprocess_ms": 0.18472700321581215,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 117,
+          "latency_ms": 10.477896001248155,
+          "fps": 95.4390079726767,
+          "preprocess_ms": 2.2746879985788837,
+          "inference_ms": 8.024615002796054,
+          "postprocess_ms": 0.1785929998732172,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 118,
+          "latency_ms": 10.569060003035702,
+          "fps": 94.61579361956264,
+          "preprocess_ms": 2.3683819963480346,
+          "inference_ms": 8.012416001292877,
+          "postprocess_ms": 0.18826200539479032,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 119,
+          "latency_ms": 10.475374998350162,
+          "fps": 95.46197631659933,
+          "preprocess_ms": 2.2649669990641996,
+          "inference_ms": 8.030867000343278,
+          "postprocess_ms": 0.17954099894268438,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 120,
+          "latency_ms": 10.66898400313221,
+          "fps": 93.72963720879319,
+          "preprocess_ms": 2.3530100006610155,
+          "inference_ms": 8.13914299942553,
+          "postprocess_ms": 0.17683100304566324,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 121,
+          "latency_ms": 10.487819999980275,
+          "fps": 95.34869972996111,
+          "preprocess_ms": 2.299264000612311,
+          "inference_ms": 7.9913350054994226,
+          "postprocess_ms": 0.19722099386854097,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 122,
+          "latency_ms": 10.502627003006637,
+          "fps": 95.21427350640228,
+          "preprocess_ms": 2.305395006260369,
+          "inference_ms": 8.016703999601305,
+          "postprocess_ms": 0.1805279971449636,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 123,
+          "latency_ms": 10.54012600070564,
+          "fps": 94.87552614959745,
+          "preprocess_ms": 2.3397440018015914,
+          "inference_ms": 8.020535002287943,
+          "postprocess_ms": 0.17984699661610648,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 124,
+          "latency_ms": 10.493672998563852,
+          "fps": 95.29551760731047,
+          "preprocess_ms": 2.299494000908453,
+          "inference_ms": 8.014241000637412,
+          "postprocess_ms": 0.17993799701798707,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 125,
+          "latency_ms": 10.452110000187531,
+          "fps": 95.67446190119105,
+          "preprocess_ms": 2.279050000652205,
+          "inference_ms": 7.996479005669244,
+          "postprocess_ms": 0.17658099386608228,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 126,
+          "latency_ms": 10.490201006177813,
+          "fps": 95.32705802406333,
+          "preprocess_ms": 2.3026130002108403,
+          "inference_ms": 8.008755001355894,
+          "postprocess_ms": 0.17883300461107865,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 127,
+          "latency_ms": 10.457763004524168,
+          "fps": 95.62274451690928,
+          "preprocess_ms": 2.2771730000386015,
+          "inference_ms": 8.003398004802875,
+          "postprocess_ms": 0.17719199968269095,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 128,
+          "latency_ms": 10.480097000254318,
+          "fps": 95.41896415421854,
+          "preprocess_ms": 2.2950560014578514,
+          "inference_ms": 8.006891002878547,
+          "postprocess_ms": 0.17814999591792002,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 129,
+          "latency_ms": 10.49035100004403,
+          "fps": 95.32569501209282,
+          "preprocess_ms": 2.30815199756762,
+          "inference_ms": 7.992892002221197,
+          "postprocess_ms": 0.1893070002552122,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 130,
+          "latency_ms": 10.520342999370769,
+          "fps": 95.05393503422948,
+          "preprocess_ms": 2.273937003337778,
+          "inference_ms": 8.07058899954427,
+          "postprocess_ms": 0.17581699648872018,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 131,
+          "latency_ms": 10.43177900282899,
+          "fps": 95.86092647560982,
+          "preprocess_ms": 2.2436130020651035,
+          "inference_ms": 8.006536001630593,
+          "postprocess_ms": 0.18162999913329259,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 132,
+          "latency_ms": 10.409403002995532,
+          "fps": 96.06698863635391,
+          "preprocess_ms": 2.2511240022140555,
+          "inference_ms": 7.982830997207202,
+          "postprocess_ms": 0.17544800357427448,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 133,
+          "latency_ms": 10.545996003202163,
+          "fps": 94.8227175220209,
+          "preprocess_ms": 2.3761880001984537,
+          "inference_ms": 7.9840860053082,
+          "postprocess_ms": 0.18572199769550934,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 134,
+          "latency_ms": 10.44732000445947,
+          "fps": 95.718327721669,
+          "preprocess_ms": 2.2893790010130033,
+          "inference_ms": 7.979863999935333,
+          "postprocess_ms": 0.17807700351113454,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 135,
+          "latency_ms": 10.507963001145981,
+          "fps": 95.16592320423489,
+          "preprocess_ms": 2.277309999044519,
+          "inference_ms": 8.041840999794658,
+          "postprocess_ms": 0.18881200230680406,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 136,
+          "latency_ms": 10.423364998132456,
+          "fps": 95.93830784772183,
+          "preprocess_ms": 2.222746996267233,
+          "inference_ms": 8.011789002921432,
+          "postprocess_ms": 0.1888289989437908,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 137,
+          "latency_ms": 10.500664997380227,
+          "fps": 95.23206389780898,
+          "preprocess_ms": 2.31918299687095,
+          "inference_ms": 7.994760999281425,
+          "postprocess_ms": 0.18672100122785196,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 138,
+          "latency_ms": 10.543848999077454,
+          "fps": 94.84202591363895,
+          "preprocess_ms": 2.329082999494858,
+          "inference_ms": 8.035547005420085,
+          "postprocess_ms": 0.17921899416251108,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 139,
+          "latency_ms": 10.586182994302362,
+          "fps": 94.4627540009666,
+          "preprocess_ms": 2.2597079951083288,
+          "inference_ms": 8.15355200029444,
+          "postprocess_ms": 0.17292299889959395,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 140,
+          "latency_ms": 10.510330997931305,
+          "fps": 95.14448214778629,
+          "preprocess_ms": 2.3561010020785034,
+          "inference_ms": 7.972936000442132,
+          "postprocess_ms": 0.1812939954106696,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 141,
+          "latency_ms": 10.430905000248458,
+          "fps": 95.8689586355336,
+          "preprocess_ms": 2.245056995889172,
+          "inference_ms": 8.00782300211722,
+          "postprocess_ms": 0.17802500224206597,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 142,
+          "latency_ms": 10.730415997386444,
+          "fps": 93.19303186787587,
+          "preprocess_ms": 2.332363997993525,
+          "inference_ms": 8.200650998333003,
+          "postprocess_ms": 0.19740100105991587,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 143,
+          "latency_ms": 10.391290998086333,
+          "fps": 96.234433256095,
+          "preprocess_ms": 2.228798002761323,
+          "inference_ms": 7.982531999005005,
+          "postprocess_ms": 0.1799609963200055,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 144,
+          "latency_ms": 10.486637002031785,
+          "fps": 95.35945602067184,
+          "preprocess_ms": 2.285913004016038,
+          "inference_ms": 8.018079999601468,
+          "postprocess_ms": 0.18264399841427803,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 145,
+          "latency_ms": 10.673413999029435,
+          "fps": 93.69073476311637,
+          "preprocess_ms": 2.3686889981036074,
+          "inference_ms": 8.118358004139736,
+          "postprocess_ms": 0.18636699678609148,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 146,
+          "latency_ms": 10.49837699974887,
+          "fps": 95.25281860462057,
+          "preprocess_ms": 2.278785999806132,
+          "inference_ms": 8.028151998587418,
+          "postprocess_ms": 0.19143900135532022,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 147,
+          "latency_ms": 10.608887001581024,
+          "fps": 94.26059490038604,
+          "preprocess_ms": 2.3577690008096397,
+          "inference_ms": 8.068110000749584,
+          "postprocess_ms": 0.1830080000218004,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 148,
+          "latency_ms": 11.496856997837313,
+          "fps": 86.98029384797177,
+          "preprocess_ms": 2.8526230016723275,
+          "inference_ms": 8.45256500178948,
+          "postprocess_ms": 0.19166899437550455,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 149,
+          "latency_ms": 11.147258002893068,
+          "fps": 89.70815959767579,
+          "preprocess_ms": 2.698701006011106,
+          "inference_ms": 8.253057996626012,
+          "postprocess_ms": 0.1954990002559498,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 150,
+          "latency_ms": 11.032958995201625,
+          "fps": 90.63751623067871,
+          "preprocess_ms": 2.422245997877326,
+          "inference_ms": 8.414276999246795,
+          "postprocess_ms": 0.19643599807750434,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 151,
+          "latency_ms": 11.073039997427259,
+          "fps": 90.30943627335789,
+          "preprocess_ms": 2.3002410016488284,
+          "inference_ms": 8.580091998737771,
+          "postprocess_ms": 0.1927069970406592,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 152,
+          "latency_ms": 11.195644998224452,
+          "fps": 89.32044559814041,
+          "preprocess_ms": 2.772186999209225,
+          "inference_ms": 8.238580005127005,
+          "postprocess_ms": 0.18487799388822168,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 153,
+          "latency_ms": 10.754677998193074,
+          "fps": 92.98279317781649,
+          "preprocess_ms": 2.4545229971408844,
+          "inference_ms": 8.113717005471699,
+          "postprocess_ms": 0.18643799558049068,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 154,
+          "latency_ms": 10.555779001151677,
+          "fps": 94.73483670801521,
+          "preprocess_ms": 2.3521260009147227,
+          "inference_ms": 8.024154005397577,
+          "postprocess_ms": 0.1794989948393777,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 155,
+          "latency_ms": 10.527987004024908,
+          "fps": 94.98491968290752,
+          "preprocess_ms": 2.299036001204513,
+          "inference_ms": 8.048586001677904,
+          "postprocess_ms": 0.18036500114249066,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 156,
+          "latency_ms": 10.471396999491844,
+          "fps": 95.49824154776368,
+          "preprocess_ms": 2.273901001899503,
+          "inference_ms": 8.01898699864978,
+          "postprocess_ms": 0.17850899894256145,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 157,
+          "latency_ms": 10.40561300033005,
+          "fps": 96.10197880396682,
+          "preprocess_ms": 2.2276949966908433,
+          "inference_ms": 7.990436999534722,
+          "postprocess_ms": 0.18748100410448387,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 158,
+          "latency_ms": 10.708469002565835,
+          "fps": 93.3840308787738,
+          "preprocess_ms": 2.354894000745844,
+          "inference_ms": 8.165733001078479,
+          "postprocess_ms": 0.18784200074151158,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 159,
+          "latency_ms": 10.515245994611178,
+          "fps": 95.10001007227763,
+          "preprocess_ms": 2.324550994671881,
+          "inference_ms": 8.010807003302034,
+          "postprocess_ms": 0.1798879966372624,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 160,
+          "latency_ms": 10.540757997659966,
+          "fps": 94.86983765512865,
+          "preprocess_ms": 2.3679239966440946,
+          "inference_ms": 7.9936429974623024,
+          "postprocess_ms": 0.17919100355356932,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 161,
+          "latency_ms": 10.541948999161832,
+          "fps": 94.85911951191453,
+          "preprocess_ms": 2.37113799812505,
+          "inference_ms": 7.9910140048014,
+          "postprocess_ms": 0.1797969962353818,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 162,
+          "latency_ms": 10.519206000026315,
+          "fps": 95.06420921859485,
+          "preprocess_ms": 2.32523799786577,
+          "inference_ms": 8.015596999030095,
+          "postprocess_ms": 0.17837100313045084,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 163,
+          "latency_ms": 10.495139002159704,
+          "fps": 95.28220634278581,
+          "preprocess_ms": 2.2982060036156327,
+          "inference_ms": 8.018974993319716,
+          "postprocess_ms": 0.17795800522435457,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 164,
+          "latency_ms": 10.498137002286967,
+          "fps": 95.2549961752409,
+          "preprocess_ms": 2.2894810026627965,
+          "inference_ms": 8.026520001294557,
+          "postprocess_ms": 0.18213599832961336,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 165,
+          "latency_ms": 10.426079999888316,
+          "fps": 95.91332504744948,
+          "preprocess_ms": 2.258091000840068,
+          "inference_ms": 7.988370998646133,
+          "postprocess_ms": 0.17961800040211529,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 166,
+          "latency_ms": 10.549054997682106,
+          "fps": 94.79522101455773,
+          "preprocess_ms": 2.359363999858033,
+          "inference_ms": 8.009760997083504,
+          "postprocess_ms": 0.17993000074056908,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 167,
+          "latency_ms": 10.59220900060609,
+          "fps": 94.40901326085802,
+          "preprocess_ms": 2.22305599891115,
+          "inference_ms": 8.187426996300928,
+          "postprocess_ms": 0.18172600539401174,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 168,
+          "latency_ms": 10.59077699756017,
+          "fps": 94.4217785182686,
+          "preprocess_ms": 2.3814989981474355,
+          "inference_ms": 8.0289260004065,
+          "postprocess_ms": 0.1803519990062341,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 169,
+          "latency_ms": 10.428110996144824,
+          "fps": 95.89464480860347,
+          "preprocess_ms": 2.27541099593509,
+          "inference_ms": 7.963148003909737,
+          "postprocess_ms": 0.18955199629999697,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 170,
+          "latency_ms": 10.456341005919967,
+          "fps": 95.63574862696612,
+          "preprocess_ms": 2.2880640026414767,
+          "inference_ms": 7.9817389996605925,
+          "postprocess_ms": 0.18653800361789763,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 171,
+          "latency_ms": 10.383549000835046,
+          "fps": 96.30618586377162,
+          "preprocess_ms": 2.224199997726828,
+          "inference_ms": 7.982417999301106,
+          "postprocess_ms": 0.17693100380711257,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 172,
+          "latency_ms": 10.472298003151082,
+          "fps": 95.49002517872421,
+          "preprocess_ms": 2.3040840023895726,
+          "inference_ms": 7.989587000338361,
+          "postprocess_ms": 0.17862700042314827,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 173,
+          "latency_ms": 10.576411004876718,
+          "fps": 94.55003209868698,
+          "preprocess_ms": 2.3627640039194375,
+          "inference_ms": 8.02812799520325,
+          "postprocess_ms": 0.18551900575403124,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 174,
+          "latency_ms": 10.440382997330744,
+          "fps": 95.78192679863052,
+          "preprocess_ms": 2.2806099950685166,
+          "inference_ms": 7.982839000760578,
+          "postprocess_ms": 0.17693400150164962,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 175,
+          "latency_ms": 10.341622997657396,
+          "fps": 96.69662104550919,
+          "preprocess_ms": 2.196159999584779,
+          "inference_ms": 7.971002996782772,
+          "postprocess_ms": 0.1744600012898445,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 176,
+          "latency_ms": 10.549296996032353,
+          "fps": 94.79304643485773,
+          "preprocess_ms": 2.3541189948446117,
+          "inference_ms": 8.017790998565033,
+          "postprocess_ms": 0.17738700262270868,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 177,
+          "latency_ms": 10.77202500164276,
+          "fps": 92.83305598042128,
+          "preprocess_ms": 2.404088998446241,
+          "inference_ms": 8.185409002180677,
+          "postprocess_ms": 0.18252700101584196,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 178,
+          "latency_ms": 10.474701004568487,
+          "fps": 95.4681188096782,
+          "preprocess_ms": 2.2922019998077303,
+          "inference_ms": 8.005686999240424,
+          "postprocess_ms": 0.1768120055203326,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 179,
+          "latency_ms": 10.50011799816275,
+          "fps": 95.23702497200262,
+          "preprocess_ms": 2.2991650039330125,
+          "inference_ms": 8.021844994800631,
+          "postprocess_ms": 0.1791079994291067,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 180,
+          "latency_ms": 10.497629999008495,
+          "fps": 95.25959669891684,
+          "preprocess_ms": 2.3195379981189035,
+          "inference_ms": 8.00095200247597,
+          "postprocess_ms": 0.17713999841362238,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 181,
+          "latency_ms": 10.509466999792494,
+          "fps": 95.15230411016512,
+          "preprocess_ms": 2.3221369992825203,
+          "inference_ms": 8.009532000869513,
+          "postprocess_ms": 0.17779799964046106,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 182,
+          "latency_ms": 10.500430995307397,
+          "fps": 95.23418614406363,
+          "preprocess_ms": 2.3121829945011996,
+          "inference_ms": 8.011794001504313,
+          "postprocess_ms": 0.17645399930188432,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 183,
+          "latency_ms": 10.420851998787839,
+          "fps": 95.96144347087174,
+          "preprocess_ms": 2.217852001194842,
+          "inference_ms": 8.026078998227604,
+          "postprocess_ms": 0.17692099936539307,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 184,
+          "latency_ms": 10.481560995685868,
+          "fps": 95.40563666152327,
+          "preprocess_ms": 2.2868160012876615,
+          "inference_ms": 8.018219996301923,
+          "postprocess_ms": 0.17652499809628353,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 185,
+          "latency_ms": 10.698249003326055,
+          "fps": 93.47324031148489,
+          "preprocess_ms": 2.501697003026493,
+          "inference_ms": 8.000873996934388,
+          "postprocess_ms": 0.19567800336517394,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 186,
+          "latency_ms": 10.613275997457094,
+          "fps": 94.22161453632192,
+          "preprocess_ms": 2.2810890004620887,
+          "inference_ms": 8.159044999047183,
+          "postprocess_ms": 0.17314199794782326,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 187,
+          "latency_ms": 10.496003000298515,
+          "fps": 95.27436300957223,
+          "preprocess_ms": 2.3171349967014976,
+          "inference_ms": 8.001685004273895,
+          "postprocess_ms": 0.1771829993231222,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 188,
+          "latency_ms": 10.506163001991808,
+          "fps": 95.1822277848169,
+          "preprocess_ms": 2.322558000741992,
+          "inference_ms": 8.006165000551846,
+          "postprocess_ms": 0.1774400006979704,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 189,
+          "latency_ms": 10.5112020028173,
+          "fps": 95.13659805338835,
+          "preprocess_ms": 2.3395099997287616,
+          "inference_ms": 7.992648999788798,
+          "postprocess_ms": 0.1790430032997392,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 190,
+          "latency_ms": 10.53099699493032,
+          "fps": 94.95777090064745,
+          "preprocess_ms": 2.3378859987133183,
+          "inference_ms": 8.014259998162743,
+          "postprocess_ms": 0.17885099805425853,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 191,
+          "latency_ms": 10.442056998726912,
+          "fps": 95.76657167471114,
+          "preprocess_ms": 2.280241002154071,
+          "inference_ms": 7.98432400188176,
+          "postprocess_ms": 0.17749199469108135,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 192,
+          "latency_ms": 10.45337899995502,
+          "fps": 95.66284739167142,
+          "preprocess_ms": 2.2531250069732778,
+          "inference_ms": 8.012013997358736,
+          "postprocess_ms": 0.18823999562300742,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 193,
+          "latency_ms": 10.577286004263442,
+          "fps": 94.54221050626076,
+          "preprocess_ms": 2.394925002590753,
+          "inference_ms": 7.994358995347284,
+          "postprocess_ms": 0.1880020063254051,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 194,
+          "latency_ms": 10.47091800137423,
+          "fps": 95.50261016930487,
+          "preprocess_ms": 2.309026000148151,
+          "inference_ms": 7.98590799968224,
+          "postprocess_ms": 0.17598400154383853,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 195,
+          "latency_ms": 10.56939300178783,
+          "fps": 94.61281265923675,
+          "preprocess_ms": 2.36611400032416,
+          "inference_ms": 8.014368002477568,
+          "postprocess_ms": 0.18891099898610264,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 196,
+          "latency_ms": 10.564101001364179,
+          "fps": 94.66020817775848,
+          "preprocess_ms": 2.295859005243983,
+          "inference_ms": 8.096053999906871,
+          "postprocess_ms": 0.17218799621332437,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 197,
+          "latency_ms": 10.389559000032023,
+          "fps": 96.25047607862064,
+          "preprocess_ms": 2.2098330009612255,
+          "inference_ms": 7.985758995346259,
+          "postprocess_ms": 0.1939670037245378,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 198,
+          "latency_ms": 11.025924999557901,
+          "fps": 90.69533848997669,
+          "preprocess_ms": 2.402525999059435,
+          "inference_ms": 8.426266002061311,
+          "postprocess_ms": 0.19713299843715504,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 199,
+          "latency_ms": 11.003933002939448,
+          "fps": 90.87659837013484,
+          "preprocess_ms": 2.664473999175243,
+          "inference_ms": 8.154136005032342,
+          "postprocess_ms": 0.18532299873186275,
+          "num_detections": 1
+        }
+      ],
+      "system_samples": [
+        {
+          "timestamp_s": 0.00021449699852382764,
+          "gpu_util_pct": 4.0,
+          "gpu_mem_mb": 724.25,
+          "cpu_util_pct": 0.0,
+          "ram_mb": 10536.63671875
+        },
+        {
+          "timestamp_s": 0.1318038519966649,
+          "gpu_util_pct": 4.0,
+          "gpu_mem_mb": 724.25,
+          "cpu_util_pct": 62.7,
+          "ram_mb": 10481.78125
+        },
+        {
+          "timestamp_s": 0.23219328399864025,
+          "gpu_util_pct": 4.0,
+          "gpu_mem_mb": 724.25,
+          "cpu_util_pct": 72.3,
+          "ram_mb": 10176.890625
+        },
+        {
+          "timestamp_s": 0.33253526099724695,
+          "gpu_util_pct": 4.0,
+          "gpu_mem_mb": 724.25,
+          "cpu_util_pct": 75.3,
+          "ram_mb": 10174.32421875
+        },
+        {
+          "timestamp_s": 0.43350828199618263,
+          "gpu_util_pct": 4.0,
+          "gpu_mem_mb": 724.25,
+          "cpu_util_pct": 77.3,
+          "ram_mb": 10232.4296875
+        },
+        {
+          "timestamp_s": 0.5339734099979978,
+          "gpu_util_pct": 4.0,
+          "gpu_mem_mb": 724.25,
+          "cpu_util_pct": 68.9,
+          "ram_mb": 10257.14453125
+        },
+        {
+          "timestamp_s": 0.6343433789952542,
+          "gpu_util_pct": 4.0,
+          "gpu_mem_mb": 724.25,
+          "cpu_util_pct": 72.0,
+          "ram_mb": 10251.3203125
+        },
+        {
+          "timestamp_s": 0.7347370049974415,
+          "gpu_util_pct": 34.0,
+          "gpu_mem_mb": 724.25,
+          "cpu_util_pct": 58.7,
+          "ram_mb": 10246.29296875
+        },
+        {
+          "timestamp_s": 0.8351307239936432,
+          "gpu_util_pct": 34.0,
+          "gpu_mem_mb": 724.25,
+          "cpu_util_pct": 60.4,
+          "ram_mb": 10239.7890625
+        },
+        {
+          "timestamp_s": 0.935480745996756,
+          "gpu_util_pct": 34.0,
+          "gpu_mem_mb": 724.25,
+          "cpu_util_pct": 59.6,
+          "ram_mb": 10245.0859375
+        },
+        {
+          "timestamp_s": 1.0358492140003364,
+          "gpu_util_pct": 34.0,
+          "gpu_mem_mb": 724.25,
+          "cpu_util_pct": 62.0,
+          "ram_mb": 10243.3046875
+        },
+        {
+          "timestamp_s": 1.1362401000005775,
+          "gpu_util_pct": 34.0,
+          "gpu_mem_mb": 724.25,
+          "cpu_util_pct": 59.0,
+          "ram_mb": 10242.00390625
+        },
+        {
+          "timestamp_s": 1.2366181179968407,
+          "gpu_util_pct": 34.0,
+          "gpu_mem_mb": 724.25,
+          "cpu_util_pct": 60.0,
+          "ram_mb": 10242.14453125
+        },
+        {
+          "timestamp_s": 1.3370301139948424,
+          "gpu_util_pct": 34.0,
+          "gpu_mem_mb": 724.25,
+          "cpu_util_pct": 59.0,
+          "ram_mb": 10242.00390625
+        },
+        {
+          "timestamp_s": 1.4374025509969215,
+          "gpu_util_pct": 34.0,
+          "gpu_mem_mb": 724.25,
+          "cpu_util_pct": 59.6,
+          "ram_mb": 10245.2109375
+        },
+        {
+          "timestamp_s": 1.5377558639956987,
+          "gpu_util_pct": 34.0,
+          "gpu_mem_mb": 724.25,
+          "cpu_util_pct": 59.9,
+          "ram_mb": 10248.7890625
+        },
+        {
+          "timestamp_s": 1.6381069290000596,
+          "gpu_util_pct": 34.0,
+          "gpu_mem_mb": 724.25,
+          "cpu_util_pct": 61.0,
+          "ram_mb": 10238.90625
+        },
+        {
+          "timestamp_s": 1.7384882639962598,
+          "gpu_util_pct": 47.0,
+          "gpu_mem_mb": 724.25,
+          "cpu_util_pct": 59.0,
+          "ram_mb": 10239.43359375
+        },
+        {
+          "timestamp_s": 1.838922418995935,
+          "gpu_util_pct": 47.0,
+          "gpu_mem_mb": 724.25,
+          "cpu_util_pct": 59.1,
+          "ram_mb": 10234.37109375
+        },
+        {
+          "timestamp_s": 1.9392954639988602,
+          "gpu_util_pct": 47.0,
+          "gpu_mem_mb": 724.25,
+          "cpu_util_pct": 58.6,
+          "ram_mb": 10234.40625
+        },
+        {
+          "timestamp_s": 2.0396558919965173,
+          "gpu_util_pct": 47.0,
+          "gpu_mem_mb": 724.25,
+          "cpu_util_pct": 59.9,
+          "ram_mb": 10238.0625
+        }
+      ],
+      "fps_mean": 103.5181148406434,
+      "fps_max": 157.18468398160638,
+      "latency_mean_ms": 10.348086670092016,
+      "latency_p50_ms": 10.49924749895581,
+      "latency_p95_ms": 12.064658494637113,
+      "latency_p99_ms": 22.532488012875532,
+      "latency_min_ms": 6.3619430002290756,
+      "latency_max_ms": 51.580154002294876,
+      "gpu_util_mean": 26.476190476190474,
+      "gpu_util_max": 47.0,
+      "gpu_mem_mean_mb": 724.25,
+      "gpu_mem_max_mb": 724.25,
+      "cpu_util_mean": 60.20476190476192,
+      "ram_mean_mb": 10261.444382440477,
+      "total_frames": 200
+    },
+    "ONNX": {
+      "backend": "ONNX",
+      "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "frame_samples": [
+        {
+          "frame_idx": 0,
+          "latency_ms": 12.632996003958397,
+          "fps": 79.15778645751665,
+          "preprocess_ms": 3.528843000822235,
+          "inference_ms": 8.924150999519043,
+          "postprocess_ms": 0.18000200361711904,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 1,
+          "latency_ms": 10.830122002516873,
+          "fps": 92.33506324006363,
+          "preprocess_ms": 2.622157000587322,
+          "inference_ms": 8.003342001757119,
+          "postprocess_ms": 0.2046230001724325,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 2,
+          "latency_ms": 11.676961003104225,
+          "fps": 85.63872053132302,
+          "preprocess_ms": 2.2077670000726357,
+          "inference_ms": 9.259760998247657,
+          "postprocess_ms": 0.20943300478393212,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 3,
+          "latency_ms": 11.712063002050854,
+          "fps": 85.3820543677825,
+          "preprocess_ms": 2.230057005363051,
+          "inference_ms": 9.274880998418666,
+          "postprocess_ms": 0.207124998269137,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 4,
+          "latency_ms": 11.680612995405681,
+          "fps": 85.61194522867324,
+          "preprocess_ms": 2.249928998935502,
+          "inference_ms": 9.200091997627169,
+          "postprocess_ms": 0.23059199884301051,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 5,
+          "latency_ms": 11.991790001047775,
+          "fps": 83.39038624864392,
+          "preprocess_ms": 2.7515789988683537,
+          "inference_ms": 9.04705400171224,
+          "postprocess_ms": 0.1931570004671812,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 6,
+          "latency_ms": 11.370977998012677,
+          "fps": 87.94318309073955,
+          "preprocess_ms": 2.0612829976016656,
+          "inference_ms": 9.114364998822566,
+          "postprocess_ms": 0.19533000158844516,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 7,
+          "latency_ms": 11.462704998848494,
+          "fps": 87.2394430547115,
+          "preprocess_ms": 2.315015000931453,
+          "inference_ms": 8.95498700265307,
+          "postprocess_ms": 0.1927029952639714,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 8,
+          "latency_ms": 11.342065998178441,
+          "fps": 88.1673585888675,
+          "preprocess_ms": 2.085209998767823,
+          "inference_ms": 9.069498999451753,
+          "postprocess_ms": 0.18735699995886534,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 9,
+          "latency_ms": 11.62209400354186,
+          "fps": 86.04301425330475,
+          "preprocess_ms": 2.3220450020744465,
+          "inference_ms": 9.105958997679409,
+          "postprocess_ms": 0.19409000378800556,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 10,
+          "latency_ms": 11.45436800288735,
+          "fps": 87.30293978226699,
+          "preprocess_ms": 2.150947999325581,
+          "inference_ms": 9.105499004363082,
+          "postprocess_ms": 0.19792099919868633,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 11,
+          "latency_ms": 11.452931998064741,
+          "fps": 87.31388610086701,
+          "preprocess_ms": 2.154189998691436,
+          "inference_ms": 9.106621000682935,
+          "postprocess_ms": 0.19212099869037047,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 12,
+          "latency_ms": 11.53282199811656,
+          "fps": 86.7090465944338,
+          "preprocess_ms": 2.2676360022160225,
+          "inference_ms": 9.05981599498773,
+          "postprocess_ms": 0.20537000091280788,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 13,
+          "latency_ms": 11.611286005063448,
+          "fps": 86.12310467280886,
+          "preprocess_ms": 2.3392939983750694,
+          "inference_ms": 9.07575800374616,
+          "postprocess_ms": 0.19623400294221938,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 14,
+          "latency_ms": 11.635226001089904,
+          "fps": 85.94590254682868,
+          "preprocess_ms": 2.128867003193591,
+          "inference_ms": 9.310678993642796,
+          "postprocess_ms": 0.19568000425351784,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 15,
+          "latency_ms": 11.612313996010926,
+          "fps": 86.11548054449105,
+          "preprocess_ms": 2.334429998882115,
+          "inference_ms": 9.080357995117083,
+          "postprocess_ms": 0.19752600201172754,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 16,
+          "latency_ms": 11.43109900294803,
+          "fps": 87.48065253761727,
+          "preprocess_ms": 2.191245002904907,
+          "inference_ms": 9.049877000506967,
+          "postprocess_ms": 0.18997699953615665,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 17,
+          "latency_ms": 11.5490590033005,
+          "fps": 86.58714097089808,
+          "preprocess_ms": 2.2722139983670786,
+          "inference_ms": 9.097574002225883,
+          "postprocess_ms": 0.17927100270753726,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 18,
+          "latency_ms": 11.598929995670915,
+          "fps": 86.21484916050287,
+          "preprocess_ms": 2.310252995812334,
+          "inference_ms": 9.099224000237882,
+          "postprocess_ms": 0.1894529996206984,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 19,
+          "latency_ms": 11.497529005282559,
+          "fps": 86.97521002474083,
+          "preprocess_ms": 2.155064001271967,
+          "inference_ms": 9.174958999210503,
+          "postprocess_ms": 0.1675060048000887,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 20,
+          "latency_ms": 10.262623000016902,
+          "fps": 97.44097585951984,
+          "preprocess_ms": 1.8708520001382567,
+          "inference_ms": 8.235082001192495,
+          "postprocess_ms": 0.15668899868614972,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 21,
+          "latency_ms": 10.041941997769754,
+          "fps": 99.58233180614796,
+          "preprocess_ms": 1.7537820021971129,
+          "inference_ms": 8.127921995765064,
+          "postprocess_ms": 0.16023799980757758,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 22,
+          "latency_ms": 10.087860995554365,
+          "fps": 99.1290423649465,
+          "preprocess_ms": 1.8230439964099787,
+          "inference_ms": 8.109989001241047,
+          "postprocess_ms": 0.15482799790333956,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 23,
+          "latency_ms": 10.061206005048007,
+          "fps": 99.39166333521749,
+          "preprocess_ms": 1.7817000043578446,
+          "inference_ms": 8.11935099773109,
+          "postprocess_ms": 0.1601550029590726,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 24,
+          "latency_ms": 9.607797001081053,
+          "fps": 104.0821324479984,
+          "preprocess_ms": 1.7892510004458018,
+          "inference_ms": 7.661319999897387,
+          "postprocess_ms": 0.15722600073786452,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 25,
+          "latency_ms": 9.649614999943879,
+          "fps": 103.63107750991267,
+          "preprocess_ms": 1.804367006116081,
+          "inference_ms": 7.682112998736557,
+          "postprocess_ms": 0.16313499509124085,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 26,
+          "latency_ms": 9.659374998591375,
+          "fps": 103.52636688665984,
+          "preprocess_ms": 1.8310079976799898,
+          "inference_ms": 7.682360999751836,
+          "postprocess_ms": 0.14600600115954876,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 27,
+          "latency_ms": 9.577942000760231,
+          "fps": 104.40656248707988,
+          "preprocess_ms": 1.7528140015201643,
+          "inference_ms": 7.663915996090509,
+          "postprocess_ms": 0.16121200314955786,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 28,
+          "latency_ms": 10.072491997561883,
+          "fps": 99.28029729306878,
+          "preprocess_ms": 1.8321079987799749,
+          "inference_ms": 8.009463002963457,
+          "postprocess_ms": 0.23092099581845105,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 29,
+          "latency_ms": 10.03034099994693,
+          "fps": 99.69750779213697,
+          "preprocess_ms": 2.1415430019260384,
+          "inference_ms": 7.724780996795744,
+          "postprocess_ms": 0.1640170012251474,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 30,
+          "latency_ms": 9.780021995538846,
+          "fps": 102.2492587906397,
+          "preprocess_ms": 1.8180080005549826,
+          "inference_ms": 7.792375996359624,
+          "postprocess_ms": 0.16963799862423912,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 31,
+          "latency_ms": 9.722998998768162,
+          "fps": 102.84892553487799,
+          "preprocess_ms": 1.828890002798289,
+          "inference_ms": 7.732031001069117,
+          "postprocess_ms": 0.16207799490075558,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 32,
+          "latency_ms": 9.928778003086336,
+          "fps": 100.71732892901346,
+          "preprocess_ms": 1.9367400018381886,
+          "inference_ms": 7.797487996867858,
+          "postprocess_ms": 0.19455000438028947,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 33,
+          "latency_ms": 9.784731999388896,
+          "fps": 102.2000398235184,
+          "preprocess_ms": 1.927616998727899,
+          "inference_ms": 7.695722997596022,
+          "postprocess_ms": 0.16139200306497514,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 34,
+          "latency_ms": 9.571927999786567,
+          "fps": 104.47216067884106,
+          "preprocess_ms": 1.770064998709131,
+          "inference_ms": 7.647149002877995,
+          "postprocess_ms": 0.15471399819944054,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 35,
+          "latency_ms": 9.718287001305725,
+          "fps": 102.89879274666846,
+          "preprocess_ms": 1.8970310047734529,
+          "inference_ms": 7.663947995752096,
+          "postprocess_ms": 0.15730800078017637,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 36,
+          "latency_ms": 9.595301999070216,
+          "fps": 104.21766819813487,
+          "preprocess_ms": 1.791684997442644,
+          "inference_ms": 7.647104997886345,
+          "postprocess_ms": 0.1565120037412271,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 37,
+          "latency_ms": 9.693230997072533,
+          "fps": 103.1647755327415,
+          "preprocess_ms": 1.8401310007902794,
+          "inference_ms": 7.7061849951860495,
+          "postprocess_ms": 0.14691500109620392,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 38,
+          "latency_ms": 9.673198001109995,
+          "fps": 103.37842768081977,
+          "preprocess_ms": 1.8631880011525936,
+          "inference_ms": 7.654012995772064,
+          "postprocess_ms": 0.15599700418533757,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 39,
+          "latency_ms": 9.558623998600524,
+          "fps": 104.61756840172914,
+          "preprocess_ms": 1.8019079943769611,
+          "inference_ms": 7.6050410061725415,
+          "postprocess_ms": 0.15167499805102125,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 40,
+          "latency_ms": 9.691038001619745,
+          "fps": 103.18812080118369,
+          "preprocess_ms": 1.9052950010518543,
+          "inference_ms": 7.6270299978205,
+          "postprocess_ms": 0.15871300274739042,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 41,
+          "latency_ms": 9.656563997850753,
+          "fps": 103.55650314362008,
+          "preprocess_ms": 1.8863799996324815,
+          "inference_ms": 7.613322995894123,
+          "postprocess_ms": 0.156861002324149,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 42,
+          "latency_ms": 9.490751006524079,
+          "fps": 105.36573968831188,
+          "preprocess_ms": 1.7352170034428127,
+          "inference_ms": 7.600263001222629,
+          "postprocess_ms": 0.15527100185863674,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 43,
+          "latency_ms": 9.751379002409521,
+          "fps": 102.54959834428593,
+          "preprocess_ms": 1.8880530042224564,
+          "inference_ms": 7.710607002081815,
+          "postprocess_ms": 0.15271899610524997,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 44,
+          "latency_ms": 9.533039999951143,
+          "fps": 104.89833253664361,
+          "preprocess_ms": 1.7595040044398047,
+          "inference_ms": 7.6119629957247525,
+          "postprocess_ms": 0.16157299978658557,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 45,
+          "latency_ms": 9.742432004713919,
+          "fps": 102.64377513911778,
+          "preprocess_ms": 1.9625880013336428,
+          "inference_ms": 7.616724004037678,
+          "postprocess_ms": 0.16311999934259802,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 46,
+          "latency_ms": 9.460175002459437,
+          "fps": 105.70628976102684,
+          "preprocess_ms": 1.7025620036292821,
+          "inference_ms": 7.601593999424949,
+          "postprocess_ms": 0.15601899940520525,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 47,
+          "latency_ms": 9.753512000315823,
+          "fps": 102.5271717477376,
+          "preprocess_ms": 1.9251519988756627,
+          "inference_ms": 7.677279005292803,
+          "postprocess_ms": 0.15108099614735693,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 48,
+          "latency_ms": 10.236121001071297,
+          "fps": 97.69325703509577,
+          "preprocess_ms": 1.9609820010373369,
+          "inference_ms": 8.06728199677309,
+          "postprocess_ms": 0.20785700326086953,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 49,
+          "latency_ms": 11.792710996815003,
+          "fps": 84.79814355410574,
+          "preprocess_ms": 2.4182259949157014,
+          "inference_ms": 9.173441998427734,
+          "postprocess_ms": 0.20104300347156823,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 50,
+          "latency_ms": 11.960686999373138,
+          "fps": 83.6072376153987,
+          "preprocess_ms": 2.4127540018525906,
+          "inference_ms": 9.347845996671822,
+          "postprocess_ms": 0.20008700084872544,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 51,
+          "latency_ms": 11.140196002088487,
+          "fps": 89.76502745665579,
+          "preprocess_ms": 2.289668998855632,
+          "inference_ms": 8.642831999168266,
+          "postprocess_ms": 0.20769500406458974,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 52,
+          "latency_ms": 12.39323899790179,
+          "fps": 80.68915641579274,
+          "preprocess_ms": 3.116363994195126,
+          "inference_ms": 9.079521005332936,
+          "postprocess_ms": 0.19735399837372825,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 53,
+          "latency_ms": 10.939267995127011,
+          "fps": 91.41379482113962,
+          "preprocess_ms": 2.1704589962610044,
+          "inference_ms": 8.56592100171838,
+          "postprocess_ms": 0.20288799714762717,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 54,
+          "latency_ms": 11.194034996151458,
+          "fps": 89.33329227073195,
+          "preprocess_ms": 2.298924002388958,
+          "inference_ms": 8.694551994267385,
+          "postprocess_ms": 0.20055899949511513,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 55,
+          "latency_ms": 11.153246996400412,
+          "fps": 89.659988729985,
+          "preprocess_ms": 2.1995889983372763,
+          "inference_ms": 8.75124699814478,
+          "postprocess_ms": 0.20241099991835654,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 56,
+          "latency_ms": 11.136692002764903,
+          "fps": 89.79327072632792,
+          "preprocess_ms": 2.2552119989995845,
+          "inference_ms": 8.699259000422899,
+          "postprocess_ms": 0.18222100334241986,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 57,
+          "latency_ms": 11.015323994797654,
+          "fps": 90.78262250590927,
+          "preprocess_ms": 2.200012997491285,
+          "inference_ms": 8.593364000262227,
+          "postprocess_ms": 0.22194699704414234,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 58,
+          "latency_ms": 11.221187996852677,
+          "fps": 89.11712380903701,
+          "preprocess_ms": 2.4163439957192168,
+          "inference_ms": 8.612315003119875,
+          "postprocess_ms": 0.1925289980135858,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 59,
+          "latency_ms": 10.929594005574472,
+          "fps": 91.49470689304336,
+          "preprocess_ms": 2.204152006015647,
+          "inference_ms": 8.534364998922683,
+          "postprocess_ms": 0.19107700063614175,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 60,
+          "latency_ms": 10.928073999821208,
+          "fps": 91.50743305877694,
+          "preprocess_ms": 2.1429629996418953,
+          "inference_ms": 8.59338399459375,
+          "postprocess_ms": 0.19172700558556244,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 61,
+          "latency_ms": 11.112819003756158,
+          "fps": 89.98616819566644,
+          "preprocess_ms": 2.2711900019203313,
+          "inference_ms": 8.649507995869499,
+          "postprocess_ms": 0.19212100596632808,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 62,
+          "latency_ms": 11.084894998930395,
+          "fps": 90.21285272404404,
+          "preprocess_ms": 2.267623000079766,
+          "inference_ms": 8.627203002106398,
+          "postprocess_ms": 0.1900689967442304,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 63,
+          "latency_ms": 10.901369001658168,
+          "fps": 91.7315981000087,
+          "preprocess_ms": 2.1360629980335943,
+          "inference_ms": 8.577050000894815,
+          "postprocess_ms": 0.18825600272975862,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 64,
+          "latency_ms": 11.08574200043222,
+          "fps": 90.20596004859316,
+          "preprocess_ms": 2.278131003549788,
+          "inference_ms": 8.615521997853648,
+          "postprocess_ms": 0.1920889990287833,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 65,
+          "latency_ms": 11.066819999541622,
+          "fps": 90.36019380828631,
+          "preprocess_ms": 2.292026998475194,
+          "inference_ms": 8.602093999797944,
+          "postprocess_ms": 0.1726990012684837,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 66,
+          "latency_ms": 10.929169002338313,
+          "fps": 91.4982648530779,
+          "preprocess_ms": 2.163818004191853,
+          "inference_ms": 8.575897001719568,
+          "postprocess_ms": 0.18945399642689154,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 67,
+          "latency_ms": 10.92936699569691,
+          "fps": 91.49660729607837,
+          "preprocess_ms": 2.1330069939722307,
+          "inference_ms": 8.611784003733192,
+          "postprocess_ms": 0.18457599799148738,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 68,
+          "latency_ms": 11.093295994214714,
+          "fps": 90.14453418727058,
+          "preprocess_ms": 2.3033309989841655,
+          "inference_ms": 8.600155997555703,
+          "postprocess_ms": 0.18980899767484516,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 69,
+          "latency_ms": 11.059482996643055,
+          "fps": 90.42013992006095,
+          "preprocess_ms": 2.267345000291243,
+          "inference_ms": 8.601344998169225,
+          "postprocess_ms": 0.19079299818258733,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 70,
+          "latency_ms": 10.890786994423252,
+          "fps": 91.82072888874433,
+          "preprocess_ms": 2.1124179984326474,
+          "inference_ms": 8.591015001002233,
+          "postprocess_ms": 0.1873539949883707,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 71,
+          "latency_ms": 11.084909994679037,
+          "fps": 90.21273068342626,
+          "preprocess_ms": 2.286114999151323,
+          "inference_ms": 8.598164000432007,
+          "postprocess_ms": 0.20063099509570748,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 72,
+          "latency_ms": 10.923579000518657,
+          "fps": 91.54508791967537,
+          "preprocess_ms": 2.1503750031115487,
+          "inference_ms": 8.584458999393973,
+          "postprocess_ms": 0.18874499801313505,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 73,
+          "latency_ms": 11.106155994639266,
+          "fps": 90.04015435067555,
+          "preprocess_ms": 2.307818998815492,
+          "inference_ms": 8.60611399548361,
+          "postprocess_ms": 0.1922230003401637,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 74,
+          "latency_ms": 11.046660998545121,
+          "fps": 90.52509171157719,
+          "preprocess_ms": 2.2721079949405976,
+          "inference_ms": 8.606379000411835,
+          "postprocess_ms": 0.16817400319268927,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 75,
+          "latency_ms": 10.969066999678034,
+          "fps": 91.1654564631023,
+          "preprocess_ms": 2.1392679991549812,
+          "inference_ms": 8.640509004180785,
+          "postprocess_ms": 0.18928999634226784,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 76,
+          "latency_ms": 11.048298001696821,
+          "fps": 90.51167879852787,
+          "preprocess_ms": 2.2611169988522306,
+          "inference_ms": 8.597812004154548,
+          "postprocess_ms": 0.18936899869004264,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 77,
+          "latency_ms": 11.095497997303028,
+          "fps": 90.12664417974472,
+          "preprocess_ms": 2.2927250029169954,
+          "inference_ms": 8.616578998044133,
+          "postprocess_ms": 0.18619399634189904,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 78,
+          "latency_ms": 10.943708002741914,
+          "fps": 91.37670703105866,
+          "preprocess_ms": 2.155886002583429,
+          "inference_ms": 8.597137995820958,
+          "postprocess_ms": 0.19068400433752686,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 79,
+          "latency_ms": 10.914146005234215,
+          "fps": 91.62420949109708,
+          "preprocess_ms": 2.1373460040194914,
+          "inference_ms": 8.590377001382876,
+          "postprocess_ms": 0.18642299983184785,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 80,
+          "latency_ms": 11.076880000473466,
+          "fps": 90.2781288555312,
+          "preprocess_ms": 2.259073000459466,
+          "inference_ms": 8.631030999822542,
+          "postprocess_ms": 0.18677600019145757,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 81,
+          "latency_ms": 11.003695006365888,
+          "fps": 90.8785639207082,
+          "preprocess_ms": 2.2252280032262206,
+          "inference_ms": 8.591063997300807,
+          "postprocess_ms": 0.18740300583885983,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 82,
+          "latency_ms": 10.82348900672514,
+          "fps": 92.39164925271817,
+          "preprocess_ms": 2.1211470011621714,
+          "inference_ms": 8.514032000675797,
+          "postprocess_ms": 0.1883100048871711,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 83,
+          "latency_ms": 10.98251899384195,
+          "fps": 91.05379199077314,
+          "preprocess_ms": 2.253723992907908,
+          "inference_ms": 8.561492002627347,
+          "postprocess_ms": 0.16730299830669537,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 84,
+          "latency_ms": 10.978238002280705,
+          "fps": 91.08929864630846,
+          "preprocess_ms": 2.3133520007831976,
+          "inference_ms": 8.466842999041546,
+          "postprocess_ms": 0.19804300245596096,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 85,
+          "latency_ms": 10.952957993140444,
+          "fps": 91.29953758850114,
+          "preprocess_ms": 2.127687999745831,
+          "inference_ms": 8.633312994788866,
+          "postprocess_ms": 0.19195699860574678,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 86,
+          "latency_ms": 10.913140999036841,
+          "fps": 91.63264729084476,
+          "preprocess_ms": 2.1251849975669757,
+          "inference_ms": 8.601261004514527,
+          "postprocess_ms": 0.18669499695533887,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 87,
+          "latency_ms": 11.04814500286011,
+          "fps": 90.51293223804748,
+          "preprocess_ms": 2.271543002279941,
+          "inference_ms": 8.587648000684567,
+          "postprocess_ms": 0.18895399989560246,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 88,
+          "latency_ms": 11.016117001418024,
+          "fps": 90.77608742456869,
+          "preprocess_ms": 2.3015359984128736,
+          "inference_ms": 8.52576999750454,
+          "postprocess_ms": 0.18881100550061092,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 89,
+          "latency_ms": 10.883483999350574,
+          "fps": 91.88234209373312,
+          "preprocess_ms": 2.113761998771224,
+          "inference_ms": 8.58270099706715,
+          "postprocess_ms": 0.18702100351219997,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 90,
+          "latency_ms": 11.121506999188568,
+          "fps": 89.9158720192291,
+          "preprocess_ms": 2.3121640042518266,
+          "inference_ms": 8.62457900075242,
+          "postprocess_ms": 0.18476399418432266,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 91,
+          "latency_ms": 10.945435002213344,
+          "fps": 91.36228937431758,
+          "preprocess_ms": 2.165892998164054,
+          "inference_ms": 8.591497004090343,
+          "postprocess_ms": 0.1880449999589473,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 92,
+          "latency_ms": 11.028956003428902,
+          "fps": 90.6704133817471,
+          "preprocess_ms": 2.2791930023231544,
+          "inference_ms": 8.560513000702485,
+          "postprocess_ms": 0.18925000040326267,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 93,
+          "latency_ms": 11.229313997318968,
+          "fps": 89.05263493733926,
+          "preprocess_ms": 2.461279997078236,
+          "inference_ms": 8.56760999886319,
+          "postprocess_ms": 0.20042400137754157,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 94,
+          "latency_ms": 10.943194996798411,
+          "fps": 91.38099067891639,
+          "preprocess_ms": 2.190633997088298,
+          "inference_ms": 8.559157999115996,
+          "postprocess_ms": 0.19340300059411675,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 95,
+          "latency_ms": 11.109321007097606,
+          "fps": 90.01450217894617,
+          "preprocess_ms": 2.3724830025457777,
+          "inference_ms": 8.52823699824512,
+          "postprocess_ms": 0.20860100630670786,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 96,
+          "latency_ms": 13.401889998931438,
+          "fps": 74.61634143241977,
+          "preprocess_ms": 3.3787909997045062,
+          "inference_ms": 9.75569099682616,
+          "postprocess_ms": 0.2674080024007708,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 97,
+          "latency_ms": 10.60849799978314,
+          "fps": 94.2640513313423,
+          "preprocess_ms": 2.1423790021799505,
+          "inference_ms": 8.26459399831947,
+          "postprocess_ms": 0.2015249992837198,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 98,
+          "latency_ms": 10.757651005405933,
+          "fps": 92.9570962561883,
+          "preprocess_ms": 2.400199002295267,
+          "inference_ms": 8.181316996342503,
+          "postprocess_ms": 0.1761350067681633,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 99,
+          "latency_ms": 10.335266000765841,
+          "fps": 96.75609702990714,
+          "preprocess_ms": 2.264832000946626,
+          "inference_ms": 7.8870200013625436,
+          "postprocess_ms": 0.18341399845667183,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 100,
+          "latency_ms": 10.214479996648151,
+          "fps": 97.90023577589332,
+          "preprocess_ms": 2.242442002170719,
+          "inference_ms": 7.788261995301582,
+          "postprocess_ms": 0.1837759991758503,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 101,
+          "latency_ms": 10.377523001807276,
+          "fps": 96.362108744625,
+          "preprocess_ms": 1.8990449971170165,
+          "inference_ms": 8.28330300282687,
+          "postprocess_ms": 0.1951750018633902,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 102,
+          "latency_ms": 11.116667999885976,
+          "fps": 89.95501170047149,
+          "preprocess_ms": 2.458499002386816,
+          "inference_ms": 8.487084000080358,
+          "postprocess_ms": 0.17108499741880223,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 103,
+          "latency_ms": 9.871137001027819,
+          "fps": 101.30545244138303,
+          "preprocess_ms": 1.9924990047002211,
+          "inference_ms": 7.714454994129483,
+          "postprocess_ms": 0.164183002198115,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 104,
+          "latency_ms": 9.605885999917518,
+          "fps": 104.1028386146355,
+          "preprocess_ms": 1.7974420043174177,
+          "inference_ms": 7.649433995538857,
+          "postprocess_ms": 0.15901000006124377,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 105,
+          "latency_ms": 9.645890000683721,
+          "fps": 103.67109721644326,
+          "preprocess_ms": 1.8494629985070787,
+          "inference_ms": 7.631979002326261,
+          "postprocess_ms": 0.16444799985038117,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 106,
+          "latency_ms": 9.573716000886634,
+          "fps": 104.45264930643323,
+          "preprocess_ms": 1.7946139996638522,
+          "inference_ms": 7.616051996592432,
+          "postprocess_ms": 0.16305000463034958,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 107,
+          "latency_ms": 9.73647699720459,
+          "fps": 102.70655395037721,
+          "preprocess_ms": 1.9053049982176162,
+          "inference_ms": 7.653613000002224,
+          "postprocess_ms": 0.17755899898475036,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 108,
+          "latency_ms": 9.574035997502506,
+          "fps": 104.44915814614247,
+          "preprocess_ms": 1.8024119999608956,
+          "inference_ms": 7.617766001203563,
+          "postprocess_ms": 0.1538579963380471,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 109,
+          "latency_ms": 9.483202004048508,
+          "fps": 105.44961496898267,
+          "preprocess_ms": 1.7730770050548017,
+          "inference_ms": 7.562997001514304,
+          "postprocess_ms": 0.14712799747940153,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 110,
+          "latency_ms": 9.492976998444647,
+          "fps": 105.34103265644092,
+          "preprocess_ms": 1.720654996461235,
+          "inference_ms": 7.619941003213171,
+          "postprocess_ms": 0.1523809987702407,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 111,
+          "latency_ms": 9.663631994044408,
+          "fps": 103.48076174840776,
+          "preprocess_ms": 1.8963059992529452,
+          "inference_ms": 7.608111001900397,
+          "postprocess_ms": 0.15921499289106578,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 112,
+          "latency_ms": 9.673873995780014,
+          "fps": 103.37120376347936,
+          "preprocess_ms": 1.8985069982591085,
+          "inference_ms": 7.62467800086597,
+          "postprocess_ms": 0.15068899665493518,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 113,
+          "latency_ms": 9.54792500124313,
+          "fps": 104.73479838496857,
+          "preprocess_ms": 1.7738870010362007,
+          "inference_ms": 7.619374999194406,
+          "postprocess_ms": 0.15466300101252273,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 114,
+          "latency_ms": 9.793621000426356,
+          "fps": 102.10727982596693,
+          "preprocess_ms": 1.896726003906224,
+          "inference_ms": 7.736473002296407,
+          "postprocess_ms": 0.16042199422372505,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 115,
+          "latency_ms": 9.534890996292233,
+          "fps": 104.87796875589486,
+          "preprocess_ms": 1.7739119939506054,
+          "inference_ms": 7.600302000355441,
+          "postprocess_ms": 0.16067700198618695,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 116,
+          "latency_ms": 9.68573399586603,
+          "fps": 103.24462765824563,
+          "preprocess_ms": 1.9183339973096736,
+          "inference_ms": 7.60905200149864,
+          "postprocess_ms": 0.1583479970577173,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 117,
+          "latency_ms": 9.486330003710464,
+          "fps": 105.41484426631395,
+          "preprocess_ms": 1.7488790035713464,
+          "inference_ms": 7.582321995869279,
+          "postprocess_ms": 0.15512900426983833,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 118,
+          "latency_ms": 9.673819004092366,
+          "fps": 103.37179138631443,
+          "preprocess_ms": 1.9070120033575222,
+          "inference_ms": 7.60536400048295,
+          "postprocess_ms": 0.16144300025189295,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 119,
+          "latency_ms": 9.625992002838757,
+          "fps": 103.88539692377623,
+          "preprocess_ms": 1.7943200000445358,
+          "inference_ms": 7.673562999116257,
+          "postprocess_ms": 0.1581090036779642,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 120,
+          "latency_ms": 9.686579003755469,
+          "fps": 103.23562112199795,
+          "preprocess_ms": 1.9074829979217611,
+          "inference_ms": 7.625247999385465,
+          "postprocess_ms": 0.1538480064482428,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 121,
+          "latency_ms": 9.679041999334004,
+          "fps": 103.31601000065999,
+          "preprocess_ms": 1.9207349978387356,
+          "inference_ms": 7.599390999530442,
+          "postprocess_ms": 0.15891600196482614,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 122,
+          "latency_ms": 9.432645994820632,
+          "fps": 106.0147916659959,
+          "preprocess_ms": 1.7197169945575297,
+          "inference_ms": 7.571813002869021,
+          "postprocess_ms": 0.1411159973940812,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 123,
+          "latency_ms": 9.589898996637203,
+          "fps": 104.27638501204865,
+          "preprocess_ms": 1.8516310010454617,
+          "inference_ms": 7.574543000373524,
+          "postprocess_ms": 0.16372499521821737,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 124,
+          "latency_ms": 9.450099001696799,
+          "fps": 105.81899722113455,
+          "preprocess_ms": 1.713775003736373,
+          "inference_ms": 7.582306003314443,
+          "postprocess_ms": 0.15401799464598298,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 125,
+          "latency_ms": 9.6173559941235,
+          "fps": 103.97868193826149,
+          "preprocess_ms": 1.837746996898204,
+          "inference_ms": 7.618415002070833,
+          "postprocess_ms": 0.16119399515446275,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 126,
+          "latency_ms": 9.50073199783219,
+          "fps": 105.25504774033968,
+          "preprocess_ms": 1.7382570003974251,
+          "inference_ms": 7.609114996739663,
+          "postprocess_ms": 0.15336000069510192,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 127,
+          "latency_ms": 9.642741999414284,
+          "fps": 103.70494202382908,
+          "preprocess_ms": 1.873477995104622,
+          "inference_ms": 7.617260002007242,
+          "postprocess_ms": 0.1520040023024194,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 128,
+          "latency_ms": 9.464943999773823,
+          "fps": 105.65302869450642,
+          "preprocess_ms": 1.7411739972885698,
+          "inference_ms": 7.567835004010703,
+          "postprocess_ms": 0.1559349984745495,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 129,
+          "latency_ms": 9.522715998173226,
+          "fps": 105.01205750458517,
+          "preprocess_ms": 1.7604809982003644,
+          "inference_ms": 7.606382998346817,
+          "postprocess_ms": 0.1558520016260445,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 130,
+          "latency_ms": 9.633460002078209,
+          "fps": 103.80486344306945,
+          "preprocess_ms": 1.8676170002436265,
+          "inference_ms": 7.6094789983471856,
+          "postprocess_ms": 0.15636400348739699,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 131,
+          "latency_ms": 9.659751995059196,
+          "fps": 103.52232650605146,
+          "preprocess_ms": 1.8850079941330478,
+          "inference_ms": 7.621879005455412,
+          "postprocess_ms": 0.15286499547073618,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 132,
+          "latency_ms": 9.506144000624772,
+          "fps": 105.19512432530762,
+          "preprocess_ms": 1.7629869980737567,
+          "inference_ms": 7.586499996250495,
+          "postprocess_ms": 0.15665700630052015,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 133,
+          "latency_ms": 9.622102006687783,
+          "fps": 103.92739541785737,
+          "preprocess_ms": 1.8331140017835423,
+          "inference_ms": 7.636514004843775,
+          "postprocess_ms": 0.1524740000604652,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 134,
+          "latency_ms": 9.653107001213357,
+          "fps": 103.59358907699915,
+          "preprocess_ms": 1.838468000642024,
+          "inference_ms": 7.656428999325726,
+          "postprocess_ms": 0.1582100012456067,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 135,
+          "latency_ms": 9.491067001363263,
+          "fps": 105.36223164965158,
+          "preprocess_ms": 1.7630729998927563,
+          "inference_ms": 7.573983006295748,
+          "postprocess_ms": 0.15401099517475814,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 136,
+          "latency_ms": 9.508903996902518,
+          "fps": 105.16459103233616,
+          "preprocess_ms": 1.7394969981978647,
+          "inference_ms": 7.616394002980087,
+          "postprocess_ms": 0.15301299572456628,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 137,
+          "latency_ms": 9.614644994144328,
+          "fps": 104.00800035872741,
+          "preprocess_ms": 1.8450979987392202,
+          "inference_ms": 7.6182549964869395,
+          "postprocess_ms": 0.15129199891816825,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 138,
+          "latency_ms": 9.650164000049699,
+          "fps": 103.62518191347317,
+          "preprocess_ms": 1.8765429995255545,
+          "inference_ms": 7.619727999554016,
+          "postprocess_ms": 0.15389300097012892,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 139,
+          "latency_ms": 9.478085004957393,
+          "fps": 105.5065447795586,
+          "preprocess_ms": 1.7006810012389906,
+          "inference_ms": 7.624996003869455,
+          "postprocess_ms": 0.15240799984894693,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 140,
+          "latency_ms": 9.647256003518123,
+          "fps": 103.65641791151018,
+          "preprocess_ms": 1.8620360060594976,
+          "inference_ms": 7.632926994119771,
+          "postprocess_ms": 0.15229300333885476,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 141,
+          "latency_ms": 9.505868998530786,
+          "fps": 105.19816759041794,
+          "preprocess_ms": 1.7213519968208857,
+          "inference_ms": 7.623104000231251,
+          "postprocess_ms": 0.16141300147864968,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 142,
+          "latency_ms": 9.628128005715553,
+          "fps": 103.8623499195658,
+          "preprocess_ms": 1.8777490040520206,
+          "inference_ms": 7.599268996273167,
+          "postprocess_ms": 0.15111000539036468,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 143,
+          "latency_ms": 9.664051001891494,
+          "fps": 103.47627509460321,
+          "preprocess_ms": 1.8855469970731065,
+          "inference_ms": 7.627510000020266,
+          "postprocess_ms": 0.15099400479812175,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 144,
+          "latency_ms": 9.457097999984398,
+          "fps": 105.74068281851893,
+          "preprocess_ms": 1.714054000331089,
+          "inference_ms": 7.593262998852879,
+          "postprocess_ms": 0.14978100080043077,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 145,
+          "latency_ms": 9.614592003345024,
+          "fps": 104.00857359855611,
+          "preprocess_ms": 1.8283290046383627,
+          "inference_ms": 7.626878999872133,
+          "postprocess_ms": 0.15938399883452803,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 146,
+          "latency_ms": 9.505558999080677,
+          "fps": 105.20159835909854,
+          "preprocess_ms": 1.732618002279196,
+          "inference_ms": 7.6127229986013845,
+          "postprocess_ms": 0.1602179982000962,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 147,
+          "latency_ms": 9.527534995868336,
+          "fps": 104.95894273111094,
+          "preprocess_ms": 1.7512159975012764,
+          "inference_ms": 7.620500000484753,
+          "postprocess_ms": 0.15581899788230658,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 148,
+          "latency_ms": 9.687196994491387,
+          "fps": 103.22903524813718,
+          "preprocess_ms": 1.8848059989977628,
+          "inference_ms": 7.643247998203151,
+          "postprocess_ms": 0.15914299729047343,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 149,
+          "latency_ms": 9.735316998558119,
+          "fps": 102.71879181213188,
+          "preprocess_ms": 1.924566997331567,
+          "inference_ms": 7.649523002328351,
+          "postprocess_ms": 0.1612269988982007,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 150,
+          "latency_ms": 9.569385001668707,
+          "fps": 104.4999234355834,
+          "preprocess_ms": 1.7561970016686246,
+          "inference_ms": 7.648727994819637,
+          "postprocess_ms": 0.16446000518044457,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 151,
+          "latency_ms": 12.05426699743839,
+          "fps": 82.95817574079838,
+          "preprocess_ms": 2.912128002208192,
+          "inference_ms": 8.976587996585295,
+          "postprocess_ms": 0.1655509986449033,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 152,
+          "latency_ms": 9.851492002781015,
+          "fps": 101.50746706363931,
+          "preprocess_ms": 1.902672003780026,
+          "inference_ms": 7.789946997945663,
+          "postprocess_ms": 0.1588730010553263,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 153,
+          "latency_ms": 9.985094002331607,
+          "fps": 100.14928249713935,
+          "preprocess_ms": 1.9316120014991611,
+          "inference_ms": 7.901461998699233,
+          "postprocess_ms": 0.15202000213321298,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 154,
+          "latency_ms": 9.754810998856556,
+          "fps": 102.51351872601309,
+          "preprocess_ms": 1.9222720002289861,
+          "inference_ms": 7.67589699535165,
+          "postprocess_ms": 0.1566420032759197,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 155,
+          "latency_ms": 9.58178199653048,
+          "fps": 104.36472050419175,
+          "preprocess_ms": 1.7564570007380098,
+          "inference_ms": 7.664446995477192,
+          "postprocess_ms": 0.16087800031527877,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 156,
+          "latency_ms": 9.738560002006125,
+          "fps": 102.68458579030184,
+          "preprocess_ms": 1.9145280020893551,
+          "inference_ms": 7.665276003535837,
+          "postprocess_ms": 0.15875599638093263,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 157,
+          "latency_ms": 9.70026199502172,
+          "fps": 103.08999906530472,
+          "preprocess_ms": 1.8310109953745268,
+          "inference_ms": 7.713495004281867,
+          "postprocess_ms": 0.15575599536532536,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 158,
+          "latency_ms": 9.564373998728115,
+          "fps": 104.55467343006259,
+          "preprocess_ms": 1.7532140045659617,
+          "inference_ms": 7.659877999685705,
+          "postprocess_ms": 0.15128199447644874,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 159,
+          "latency_ms": 9.76318599714432,
+          "fps": 102.42558118758515,
+          "preprocess_ms": 1.9146749982610345,
+          "inference_ms": 7.6842599955853075,
+          "postprocess_ms": 0.16425100329797715,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 160,
+          "latency_ms": 9.533272001135629,
+          "fps": 104.89577973657705,
+          "preprocess_ms": 1.7197120032506064,
+          "inference_ms": 7.657272995857056,
+          "postprocess_ms": 0.15628700202796608,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 161,
+          "latency_ms": 9.708618999866303,
+          "fps": 103.00126104585739,
+          "preprocess_ms": 1.872941000328865,
+          "inference_ms": 7.677083005546592,
+          "postprocess_ms": 0.15859499399084598,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 162,
+          "latency_ms": 9.548567002639174,
+          "fps": 104.72775650247887,
+          "preprocess_ms": 1.748377995681949,
+          "inference_ms": 7.646246005606372,
+          "postprocess_ms": 0.1539430013508536,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 163,
+          "latency_ms": 9.6841080012382,
+          "fps": 103.26196278192488,
+          "preprocess_ms": 1.879643001302611,
+          "inference_ms": 7.6446769962785766,
+          "postprocess_ms": 0.15978800365701318,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 164,
+          "latency_ms": 10.794262001581956,
+          "fps": 92.64181283106198,
+          "preprocess_ms": 2.084020998154301,
+          "inference_ms": 8.517344002029859,
+          "postprocess_ms": 0.19289700139779598,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 165,
+          "latency_ms": 10.861750000913162,
+          "fps": 92.06619558689242,
+          "preprocess_ms": 2.1606189984595403,
+          "inference_ms": 8.507789003488142,
+          "postprocess_ms": 0.19334199896547943,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 166,
+          "latency_ms": 10.842636998859234,
+          "fps": 92.22848649320373,
+          "preprocess_ms": 2.136039998731576,
+          "inference_ms": 8.517592999851331,
+          "postprocess_ms": 0.18900400027632713,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 167,
+          "latency_ms": 10.967177004204132,
+          "fps": 91.18116718793381,
+          "preprocess_ms": 2.2492080024676397,
+          "inference_ms": 8.527161000529304,
+          "postprocess_ms": 0.19080800120718777,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 168,
+          "latency_ms": 10.933038000075612,
+          "fps": 91.46588532785526,
+          "preprocess_ms": 2.192040999943856,
+          "inference_ms": 8.545935997972265,
+          "postprocess_ms": 0.19506100215949118,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 169,
+          "latency_ms": 10.969760005536955,
+          "fps": 91.15969715793717,
+          "preprocess_ms": 2.215979002357926,
+          "inference_ms": 8.51630399847636,
+          "postprocess_ms": 0.23747700470266864,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 170,
+          "latency_ms": 10.979029997542966,
+          "fps": 91.08272772948006,
+          "preprocess_ms": 2.255223000247497,
+          "inference_ms": 8.52815099642612,
+          "postprocess_ms": 0.19565600086934865,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 171,
+          "latency_ms": 10.896913001488429,
+          "fps": 91.76910927557266,
+          "preprocess_ms": 2.202063005825039,
+          "inference_ms": 8.498973998939618,
+          "postprocess_ms": 0.1958759967237711,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 172,
+          "latency_ms": 10.894154002016876,
+          "fps": 91.79235026555217,
+          "preprocess_ms": 2.2239660029299557,
+          "inference_ms": 8.477470000798348,
+          "postprocess_ms": 0.19271799828857183,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 173,
+          "latency_ms": 10.873531995457597,
+          "fps": 91.96643743888818,
+          "preprocess_ms": 2.210122998803854,
+          "inference_ms": 8.482056997308973,
+          "postprocess_ms": 0.18135199934476987,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 174,
+          "latency_ms": 10.87615900178207,
+          "fps": 91.94422404418222,
+          "preprocess_ms": 2.209313002822455,
+          "inference_ms": 8.474157002638094,
+          "postprocess_ms": 0.1926889963215217,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 175,
+          "latency_ms": 10.941908993117977,
+          "fps": 91.39173069607506,
+          "preprocess_ms": 2.2818639990873635,
+          "inference_ms": 8.467704996292014,
+          "postprocess_ms": 0.19233999773859978,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 176,
+          "latency_ms": 10.961753003357444,
+          "fps": 91.22628467305483,
+          "preprocess_ms": 2.2620710005867295,
+          "inference_ms": 8.510902000125498,
+          "postprocess_ms": 0.18878000264521688,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 177,
+          "latency_ms": 10.911295001278631,
+          "fps": 91.64814991096985,
+          "preprocess_ms": 2.2101630020188168,
+          "inference_ms": 8.504944999003783,
+          "postprocess_ms": 0.19618700025603175,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 178,
+          "latency_ms": 11.381348995200824,
+          "fps": 87.8630468516228,
+          "preprocess_ms": 2.6601979989209212,
+          "inference_ms": 8.528239995939657,
+          "postprocess_ms": 0.19291100034024566,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 179,
+          "latency_ms": 11.12399400153663,
+          "fps": 89.89576943873428,
+          "preprocess_ms": 2.3941990002640523,
+          "inference_ms": 8.540839000488631,
+          "postprocess_ms": 0.18895600078394637,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 180,
+          "latency_ms": 10.957375998259522,
+          "fps": 91.2627256889643,
+          "preprocess_ms": 2.2383169998647645,
+          "inference_ms": 8.530412000254728,
+          "postprocess_ms": 0.1886469981400296,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 181,
+          "latency_ms": 10.822706994076725,
+          "fps": 92.39832516460999,
+          "preprocess_ms": 2.1177989983698353,
+          "inference_ms": 8.51587399665732,
+          "postprocess_ms": 0.1890339990495704,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 182,
+          "latency_ms": 10.962630003632512,
+          "fps": 91.21898665453874,
+          "preprocess_ms": 2.280585998960305,
+          "inference_ms": 8.502436001435854,
+          "postprocess_ms": 0.1796080032363534,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 183,
+          "latency_ms": 10.969052003929392,
+          "fps": 91.16558109504584,
+          "preprocess_ms": 2.29705899982946,
+          "inference_ms": 8.483768004225567,
+          "postprocess_ms": 0.18822499987436458,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 184,
+          "latency_ms": 10.815656001796015,
+          "fps": 92.45856190636454,
+          "preprocess_ms": 2.140106000297237,
+          "inference_ms": 8.480265001708176,
+          "postprocess_ms": 0.19528499979060143,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 185,
+          "latency_ms": 10.8119180003996,
+          "fps": 92.49052757919924,
+          "preprocess_ms": 2.1416570016299374,
+          "inference_ms": 8.477636998577509,
+          "postprocess_ms": 0.1926240001921542,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 186,
+          "latency_ms": 11.126058998343069,
+          "fps": 89.87908478185523,
+          "preprocess_ms": 2.323373999388423,
+          "inference_ms": 8.488582003337797,
+          "postprocess_ms": 0.3141029956168495,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 187,
+          "latency_ms": 10.989745998813305,
+          "fps": 90.99391379090855,
+          "preprocess_ms": 2.3092749979696237,
+          "inference_ms": 8.482238001306541,
+          "postprocess_ms": 0.19823299953714013,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 188,
+          "latency_ms": 10.806446000060532,
+          "fps": 92.53736149649927,
+          "preprocess_ms": 2.1256710024317726,
+          "inference_ms": 8.49164099781774,
+          "postprocess_ms": 0.18913399981101975,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 189,
+          "latency_ms": 10.965282999677584,
+          "fps": 91.19691667140769,
+          "preprocess_ms": 2.289078001922462,
+          "inference_ms": 8.485922997351736,
+          "postprocess_ms": 0.1902820004033856,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 190,
+          "latency_ms": 10.832159001438413,
+          "fps": 92.31769953406418,
+          "preprocess_ms": 2.1653790026903152,
+          "inference_ms": 8.48003199644154,
+          "postprocess_ms": 0.1867480023065582,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 191,
+          "latency_ms": 10.955731006106362,
+          "fps": 91.27642869678282,
+          "preprocess_ms": 2.3002310044830665,
+          "inference_ms": 8.476655995764304,
+          "postprocess_ms": 0.1788440058589913,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 192,
+          "latency_ms": 10.999427002388984,
+          "fps": 90.91382667322655,
+          "preprocess_ms": 2.3197260015876964,
+          "inference_ms": 8.489029001793824,
+          "postprocess_ms": 0.19067199900746346,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 193,
+          "latency_ms": 10.809402003360447,
+          "fps": 92.51205567977934,
+          "preprocess_ms": 2.137285999197047,
+          "inference_ms": 8.482581004500389,
+          "postprocess_ms": 0.18953499966301024,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 194,
+          "latency_ms": 10.969460003252607,
+          "fps": 91.16219027221807,
+          "preprocess_ms": 2.3005290058790706,
+          "inference_ms": 8.480598000460304,
+          "postprocess_ms": 0.1883329969132319,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 195,
+          "latency_ms": 10.835136999958195,
+          "fps": 92.29232634565288,
+          "preprocess_ms": 2.159946001484059,
+          "inference_ms": 8.483261000947095,
+          "postprocess_ms": 0.19192999752704054,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 196,
+          "latency_ms": 10.970217001158744,
+          "fps": 91.15589964121709,
+          "preprocess_ms": 2.283488996909,
+          "inference_ms": 8.496244998241309,
+          "postprocess_ms": 0.19048300600843504,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 197,
+          "latency_ms": 11.049535001802724,
+          "fps": 90.50154597789415,
+          "preprocess_ms": 2.2836880016257055,
+          "inference_ms": 8.562461996916682,
+          "postprocess_ms": 0.20338500326033682,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 198,
+          "latency_ms": 11.463242997706402,
+          "fps": 87.23534868798322,
+          "preprocess_ms": 2.6355430018156767,
+          "inference_ms": 8.625905997178052,
+          "postprocess_ms": 0.20179399871267378,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 199,
+          "latency_ms": 11.090831001638435,
+          "fps": 90.16456926016376,
+          "preprocess_ms": 2.2015930007910356,
+          "inference_ms": 8.693379997566808,
+          "postprocess_ms": 0.19585800328059122,
+          "num_detections": 1
+        }
+      ],
+      "system_samples": [
+        {
+          "timestamp_s": 0.00015651699504815042,
+          "gpu_util_pct": 0.0,
+          "gpu_mem_mb": 854.25,
+          "cpu_util_pct": 0.0,
+          "ram_mb": 10400.5703125
+        },
+        {
+          "timestamp_s": 0.10083379699790385,
+          "gpu_util_pct": 0.0,
+          "gpu_mem_mb": 854.25,
+          "cpu_util_pct": 63.5,
+          "ram_mb": 10411.15625
+        },
+        {
+          "timestamp_s": 0.20131759599462384,
+          "gpu_util_pct": 62.0,
+          "gpu_mem_mb": 854.25,
+          "cpu_util_pct": 56.5,
+          "ram_mb": 10409.6484375
+        },
+        {
+          "timestamp_s": 0.3016812699934235,
+          "gpu_util_pct": 62.0,
+          "gpu_mem_mb": 854.25,
+          "cpu_util_pct": 56.6,
+          "ram_mb": 10416.39453125
+        },
+        {
+          "timestamp_s": 0.4020331359934062,
+          "gpu_util_pct": 62.0,
+          "gpu_mem_mb": 854.25,
+          "cpu_util_pct": 59.4,
+          "ram_mb": 10410.4375
+        },
+        {
+          "timestamp_s": 0.502386881998973,
+          "gpu_util_pct": 62.0,
+          "gpu_mem_mb": 854.25,
+          "cpu_util_pct": 59.6,
+          "ram_mb": 10403.86328125
+        },
+        {
+          "timestamp_s": 0.6027487609972013,
+          "gpu_util_pct": 62.0,
+          "gpu_mem_mb": 854.25,
+          "cpu_util_pct": 61.3,
+          "ram_mb": 10411.37109375
+        },
+        {
+          "timestamp_s": 0.7056930109974928,
+          "gpu_util_pct": 62.0,
+          "gpu_mem_mb": 854.25,
+          "cpu_util_pct": 57.9,
+          "ram_mb": 10407.2421875
+        },
+        {
+          "timestamp_s": 0.8061253029954969,
+          "gpu_util_pct": 62.0,
+          "gpu_mem_mb": 854.25,
+          "cpu_util_pct": 56.9,
+          "ram_mb": 10407.69921875
+        },
+        {
+          "timestamp_s": 0.9065426189990831,
+          "gpu_util_pct": 62.0,
+          "gpu_mem_mb": 854.25,
+          "cpu_util_pct": 57.4,
+          "ram_mb": 10410.1640625
+        },
+        {
+          "timestamp_s": 1.006959892998566,
+          "gpu_util_pct": 62.0,
+          "gpu_mem_mb": 854.25,
+          "cpu_util_pct": 58.7,
+          "ram_mb": 10410.1015625
+        },
+        {
+          "timestamp_s": 1.1073897519963793,
+          "gpu_util_pct": 62.0,
+          "gpu_mem_mb": 854.25,
+          "cpu_util_pct": 59.1,
+          "ram_mb": 10414.8828125
+        },
+        {
+          "timestamp_s": 1.207793983994634,
+          "gpu_util_pct": 54.0,
+          "gpu_mem_mb": 854.25,
+          "cpu_util_pct": 59.5,
+          "ram_mb": 10406.41015625
+        },
+        {
+          "timestamp_s": 1.3081402359966887,
+          "gpu_util_pct": 54.0,
+          "gpu_mem_mb": 854.25,
+          "cpu_util_pct": 59.6,
+          "ram_mb": 10410.3828125
+        },
+        {
+          "timestamp_s": 1.4084923029950005,
+          "gpu_util_pct": 54.0,
+          "gpu_mem_mb": 854.25,
+          "cpu_util_pct": 58.9,
+          "ram_mb": 10408.30859375
+        },
+        {
+          "timestamp_s": 1.5088234459981322,
+          "gpu_util_pct": 54.0,
+          "gpu_mem_mb": 854.25,
+          "cpu_util_pct": 59.5,
+          "ram_mb": 10405.1796875
+        },
+        {
+          "timestamp_s": 1.609155075995659,
+          "gpu_util_pct": 54.0,
+          "gpu_mem_mb": 854.25,
+          "cpu_util_pct": 59.9,
+          "ram_mb": 10412.25390625
+        },
+        {
+          "timestamp_s": 1.7095071999938227,
+          "gpu_util_pct": 54.0,
+          "gpu_mem_mb": 854.25,
+          "cpu_util_pct": 57.6,
+          "ram_mb": 10408.84375
+        },
+        {
+          "timestamp_s": 1.8098502549983095,
+          "gpu_util_pct": 54.0,
+          "gpu_mem_mb": 854.25,
+          "cpu_util_pct": 58.3,
+          "ram_mb": 10415.734375
+        },
+        {
+          "timestamp_s": 1.9101887139986502,
+          "gpu_util_pct": 54.0,
+          "gpu_mem_mb": 854.25,
+          "cpu_util_pct": 59.5,
+          "ram_mb": 10407.6796875
+        },
+        {
+          "timestamp_s": 2.0105600699971546,
+          "gpu_util_pct": 54.0,
+          "gpu_mem_mb": 854.25,
+          "cpu_util_pct": 58.6,
+          "ram_mb": 10410.3515625
+        }
+      ],
+      "fps_mean": 95.94896522741784,
+      "fps_max": 106.0147916659959,
+      "latency_mean_ms": 10.482720435029478,
+      "latency_p50_ms": 10.823098000400933,
+      "latency_p95_ms": 11.63731275119062,
+      "latency_p99_ms": 12.395636567962354,
+      "latency_min_ms": 9.432645994820632,
+      "latency_max_ms": 13.401889998931438,
+      "gpu_util_mean": 52.666666666666664,
+      "gpu_util_max": 62.0,
+      "gpu_mem_mean_mb": 854.25,
+      "gpu_mem_max_mb": 854.25,
+      "cpu_util_mean": 56.10952380952381,
+      "ram_mean_mb": 10409.460751488095,
+      "total_frames": 200
+    },
+    "TensorRT": {
+      "backend": "TensorRT",
+      "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "frame_samples": [
+        {
+          "frame_idx": 0,
+          "latency_ms": 6.213760003447533,
+          "fps": 160.93315471553097,
+          "preprocess_ms": 1.9057239987887442,
+          "inference_ms": 4.09090900211595,
+          "postprocess_ms": 0.21712700254283845,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 1,
+          "latency_ms": 5.462615998112597,
+          "fps": 183.06247415991032,
+          "preprocess_ms": 1.3449029938783497,
+          "inference_ms": 3.9173590048449114,
+          "postprocess_ms": 0.2003539993893355,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 2,
+          "latency_ms": 6.138705997727811,
+          "fps": 162.90078077857797,
+          "preprocess_ms": 1.7498429951956496,
+          "inference_ms": 4.181591997621581,
+          "postprocess_ms": 0.20727100491058081,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 3,
+          "latency_ms": 5.859434997546487,
+          "fps": 170.6649191293578,
+          "preprocess_ms": 1.539617995149456,
+          "inference_ms": 4.128361004404724,
+          "postprocess_ms": 0.19145599799230695,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 4,
+          "latency_ms": 5.576036004640628,
+          "fps": 179.338870690174,
+          "preprocess_ms": 1.30704900220735,
+          "inference_ms": 4.065480999997817,
+          "postprocess_ms": 0.2035060024354607,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 5,
+          "latency_ms": 5.611959000816569,
+          "fps": 178.19089552409326,
+          "preprocess_ms": 1.4372540026670322,
+          "inference_ms": 3.9813440016587265,
+          "postprocess_ms": 0.19336099649081007,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 6,
+          "latency_ms": 5.6637149973539636,
+          "fps": 176.56255663768232,
+          "preprocess_ms": 1.328485996054951,
+          "inference_ms": 4.141472003539093,
+          "postprocess_ms": 0.1937569977599196,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 7,
+          "latency_ms": 5.961648996162694,
+          "fps": 167.73882538936212,
+          "preprocess_ms": 1.3784650000161491,
+          "inference_ms": 4.3740109977079555,
+          "postprocess_ms": 0.20917299843858927,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 8,
+          "latency_ms": 5.479172999912407,
+          "fps": 182.50929474502567,
+          "preprocess_ms": 1.3106129990774207,
+          "inference_ms": 3.964281000662595,
+          "postprocess_ms": 0.20427900017239153,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 9,
+          "latency_ms": 5.678401001205202,
+          "fps": 176.10591428603877,
+          "preprocess_ms": 1.4047530057723634,
+          "inference_ms": 4.082227998878807,
+          "postprocess_ms": 0.19141999655403197,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 10,
+          "latency_ms": 5.788483002106659,
+          "fps": 172.75683449982668,
+          "preprocess_ms": 1.3441249975585379,
+          "inference_ms": 4.23962499917252,
+          "postprocess_ms": 0.20473300537560135,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 11,
+          "latency_ms": 5.419739994977135,
+          "fps": 184.51069625605146,
+          "preprocess_ms": 1.3305309985298663,
+          "inference_ms": 3.885778998665046,
+          "postprocess_ms": 0.20342999778222293,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 12,
+          "latency_ms": 5.752046999987215,
+          "fps": 173.8511524683687,
+          "preprocess_ms": 1.4285550059867091,
+          "inference_ms": 4.133757000090554,
+          "postprocess_ms": 0.1897349939099513,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 13,
+          "latency_ms": 5.319192001479678,
+          "fps": 187.99847791202552,
+          "preprocess_ms": 1.3071850044070743,
+          "inference_ms": 3.8335549979819916,
+          "postprocess_ms": 0.17845199909061193,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 14,
+          "latency_ms": 5.309481006406713,
+          "fps": 188.34232551041143,
+          "preprocess_ms": 1.2780410033883527,
+          "inference_ms": 3.853517002426088,
+          "postprocess_ms": 0.17792300059227273,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 15,
+          "latency_ms": 5.242652005108539,
+          "fps": 190.74315804779357,
+          "preprocess_ms": 1.2563179989228956,
+          "inference_ms": 3.8124090060591698,
+          "postprocess_ms": 0.1739250001264736,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 16,
+          "latency_ms": 5.2570920015568845,
+          "fps": 190.21923141231895,
+          "preprocess_ms": 1.2518540024757385,
+          "inference_ms": 3.822744998615235,
+          "postprocess_ms": 0.18249300046591088,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 17,
+          "latency_ms": 5.236000994045753,
+          "fps": 190.9854488448674,
+          "preprocess_ms": 1.2321199974394403,
+          "inference_ms": 3.8398609976866283,
+          "postprocess_ms": 0.16401999891968444,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 18,
+          "latency_ms": 5.235675998847,
+          "fps": 190.9973039241198,
+          "preprocess_ms": 1.2379620020510629,
+          "inference_ms": 3.8251779988058843,
+          "postprocess_ms": 0.17253599799005315,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 19,
+          "latency_ms": 5.238229998212773,
+          "fps": 190.90417953033545,
+          "preprocess_ms": 1.2345860013738275,
+          "inference_ms": 3.8300110027194023,
+          "postprocess_ms": 0.17363299411954358,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 20,
+          "latency_ms": 5.224096996244043,
+          "fps": 191.42064182938557,
+          "preprocess_ms": 1.2303639960009605,
+          "inference_ms": 3.8194270018721,
+          "postprocess_ms": 0.1743059983709827,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 21,
+          "latency_ms": 5.213759999605827,
+          "fps": 191.80015959223334,
+          "preprocess_ms": 1.216001997818239,
+          "inference_ms": 3.8264190006884746,
+          "postprocess_ms": 0.17133900109911337,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 22,
+          "latency_ms": 5.210720999457408,
+          "fps": 191.91202140819476,
+          "preprocess_ms": 1.2239310017321259,
+          "inference_ms": 3.8166669983183965,
+          "postprocess_ms": 0.17012299940688536,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 23,
+          "latency_ms": 5.192914002691396,
+          "fps": 192.5701060101742,
+          "preprocess_ms": 1.2173970026196912,
+          "inference_ms": 3.8048239948693663,
+          "postprocess_ms": 0.1706930052023381,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 24,
+          "latency_ms": 5.226196000876371,
+          "fps": 191.3437612811138,
+          "preprocess_ms": 1.2224259990034625,
+          "inference_ms": 3.830367000773549,
+          "postprocess_ms": 0.17340300109935924,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 25,
+          "latency_ms": 5.206565001572017,
+          "fps": 192.06520992210224,
+          "preprocess_ms": 1.207688997965306,
+          "inference_ms": 3.8293510006042197,
+          "postprocess_ms": 0.16952500300249085,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 26,
+          "latency_ms": 5.200637999223545,
+          "fps": 192.28410055637403,
+          "preprocess_ms": 1.2152859999332577,
+          "inference_ms": 3.8128880041767843,
+          "postprocess_ms": 0.1724639951135032,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 27,
+          "latency_ms": 5.2013820022693835,
+          "fps": 192.25659633606915,
+          "preprocess_ms": 1.218051002069842,
+          "inference_ms": 3.8120509998407215,
+          "postprocess_ms": 0.17128000035881996,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 28,
+          "latency_ms": 5.199118000746239,
+          "fps": 192.340316156792,
+          "preprocess_ms": 1.2161659979028627,
+          "inference_ms": 3.8058570062275976,
+          "postprocess_ms": 0.17709499661577865,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 29,
+          "latency_ms": 5.187964998185635,
+          "fps": 192.75380623225598,
+          "preprocess_ms": 1.2087770010111853,
+          "inference_ms": 3.8107520012999885,
+          "postprocess_ms": 0.1684359958744608,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 30,
+          "latency_ms": 5.188439004996326,
+          "fps": 192.7361965780126,
+          "preprocess_ms": 1.2058730062562972,
+          "inference_ms": 3.811301998212002,
+          "postprocess_ms": 0.17126400052802637,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 31,
+          "latency_ms": 5.186729002161883,
+          "fps": 192.79973940863107,
+          "preprocess_ms": 1.2077139981556684,
+          "inference_ms": 3.808209999988321,
+          "postprocess_ms": 0.17080500401789322,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 32,
+          "latency_ms": 5.207114001677837,
+          "fps": 192.0449599678017,
+          "preprocess_ms": 1.214698000694625,
+          "inference_ms": 3.8160109979799017,
+          "postprocess_ms": 0.1764050030033104,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 33,
+          "latency_ms": 5.295552997267805,
+          "fps": 188.83769089195056,
+          "preprocess_ms": 1.2017109984299168,
+          "inference_ms": 3.90853600401897,
+          "postprocess_ms": 0.1853059948189184,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 34,
+          "latency_ms": 5.5871869990369305,
+          "fps": 178.98094339286857,
+          "preprocess_ms": 1.317259004281368,
+          "inference_ms": 4.083989995706361,
+          "postprocess_ms": 0.1859379990492016,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 35,
+          "latency_ms": 5.321358003129717,
+          "fps": 187.92195514976768,
+          "preprocess_ms": 1.2888280034530908,
+          "inference_ms": 3.85293600265868,
+          "postprocess_ms": 0.1795939970179461,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 36,
+          "latency_ms": 5.249962996458635,
+          "fps": 190.47753301776612,
+          "preprocess_ms": 1.2318739973125048,
+          "inference_ms": 3.8502890020026825,
+          "postprocess_ms": 0.1677999971434474,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 37,
+          "latency_ms": 5.234614000073634,
+          "fps": 191.03605346753997,
+          "preprocess_ms": 1.246169995283708,
+          "inference_ms": 3.8135010036057793,
+          "postprocess_ms": 0.17494300118414685,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 38,
+          "latency_ms": 5.211062001762912,
+          "fps": 191.8994630387622,
+          "preprocess_ms": 1.217753000673838,
+          "inference_ms": 3.8143029960338026,
+          "postprocess_ms": 0.1790060050552711,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 39,
+          "latency_ms": 5.217659003392328,
+          "fps": 191.65683294938157,
+          "preprocess_ms": 1.2102460023015738,
+          "inference_ms": 3.8359559985110536,
+          "postprocess_ms": 0.1714570025797002,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 40,
+          "latency_ms": 5.2135500009171665,
+          "fps": 191.80788518841868,
+          "preprocess_ms": 1.2213770023663528,
+          "inference_ms": 3.8199710033950396,
+          "postprocess_ms": 0.17220199515577406,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 41,
+          "latency_ms": 5.2101969995419495,
+          "fps": 191.931322383379,
+          "preprocess_ms": 1.206086999445688,
+          "inference_ms": 3.830381996522192,
+          "postprocess_ms": 0.1737280035740696,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 42,
+          "latency_ms": 5.308662999595981,
+          "fps": 188.3713469994433,
+          "preprocess_ms": 1.2317000000621192,
+          "inference_ms": 3.8988750020507723,
+          "postprocess_ms": 0.17808799748308957,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 43,
+          "latency_ms": 5.223441999987699,
+          "fps": 191.44464512142662,
+          "preprocess_ms": 1.2115510035073385,
+          "inference_ms": 3.8352339979610406,
+          "postprocess_ms": 0.17665699851932004,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 44,
+          "latency_ms": 5.199154998990707,
+          "fps": 192.3389474239807,
+          "preprocess_ms": 1.2116610014345497,
+          "inference_ms": 3.8164539946592413,
+          "postprocess_ms": 0.17104000289691612,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 45,
+          "latency_ms": 5.204083994613029,
+          "fps": 192.1567755315139,
+          "preprocess_ms": 1.213900999573525,
+          "inference_ms": 3.820414000074379,
+          "postprocess_ms": 0.16976899496512488,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 46,
+          "latency_ms": 5.231916999036912,
+          "fps": 191.1345306479593,
+          "preprocess_ms": 1.1938699972233735,
+          "inference_ms": 3.853171001537703,
+          "postprocess_ms": 0.1848760002758354,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 47,
+          "latency_ms": 5.215475001023151,
+          "fps": 191.73709006443787,
+          "preprocess_ms": 1.2162529965280555,
+          "inference_ms": 3.824384999461472,
+          "postprocess_ms": 0.17483700503362343,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 48,
+          "latency_ms": 5.214294003963005,
+          "fps": 191.78051702492664,
+          "preprocess_ms": 1.2219710042700171,
+          "inference_ms": 3.8193639993551187,
+          "postprocess_ms": 0.17295900033786893,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 49,
+          "latency_ms": 5.207904992857948,
+          "fps": 192.0157916420109,
+          "preprocess_ms": 1.2038269996992312,
+          "inference_ms": 3.832356000202708,
+          "postprocess_ms": 0.17172199295600876,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 50,
+          "latency_ms": 5.227711000770796,
+          "fps": 191.28830952065937,
+          "preprocess_ms": 1.2263410026207566,
+          "inference_ms": 3.823924998869188,
+          "postprocess_ms": 0.17744499928085133,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 51,
+          "latency_ms": 5.32884899439523,
+          "fps": 187.65778520873434,
+          "preprocess_ms": 1.3021759950788692,
+          "inference_ms": 3.819614998064935,
+          "postprocess_ms": 0.2070580012514256,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 52,
+          "latency_ms": 6.826633005402982,
+          "fps": 146.48509729592078,
+          "preprocess_ms": 1.7575259989826009,
+          "inference_ms": 4.867383002419956,
+          "postprocess_ms": 0.20172400400042534,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 53,
+          "latency_ms": 9.535561999655329,
+          "fps": 104.87058864869694,
+          "preprocess_ms": 5.23088600311894,
+          "inference_ms": 4.094402996997815,
+          "postprocess_ms": 0.21027299953857437,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 54,
+          "latency_ms": 6.598536005185451,
+          "fps": 151.54876766818447,
+          "preprocess_ms": 2.4116070053423755,
+          "inference_ms": 3.9895539957797155,
+          "postprocess_ms": 0.1973750040633604,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 55,
+          "latency_ms": 7.96932299999753,
+          "fps": 125.48117324398947,
+          "preprocess_ms": 3.781147999688983,
+          "inference_ms": 3.974422004830558,
+          "postprocess_ms": 0.21375299547798932,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 56,
+          "latency_ms": 6.008374002703931,
+          "fps": 166.43437967576133,
+          "preprocess_ms": 1.7300430044997483,
+          "inference_ms": 4.067720001330599,
+          "postprocess_ms": 0.21061099687358364,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 57,
+          "latency_ms": 15.703247998317238,
+          "fps": 63.68109324307685,
+          "preprocess_ms": 11.563480999029707,
+          "inference_ms": 3.9243010032805614,
+          "postprocess_ms": 0.21546599600696936,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 58,
+          "latency_ms": 6.115763993875589,
+          "fps": 163.5118688362425,
+          "preprocess_ms": 1.9092160000582226,
+          "inference_ms": 3.991932993812952,
+          "postprocess_ms": 0.21461500000441447,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 59,
+          "latency_ms": 5.765492001955863,
+          "fps": 173.44573536148587,
+          "preprocess_ms": 1.7682539983070455,
+          "inference_ms": 3.8065650005592033,
+          "postprocess_ms": 0.1906730030896142,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 60,
+          "latency_ms": 5.322238001099322,
+          "fps": 187.89088345794522,
+          "preprocess_ms": 1.3648820022353902,
+          "inference_ms": 3.7615269975503907,
+          "postprocess_ms": 0.19582900131354108,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 61,
+          "latency_ms": 8.85239899798762,
+          "fps": 112.9637288408855,
+          "preprocess_ms": 4.777142996317707,
+          "inference_ms": 3.875968999636825,
+          "postprocess_ms": 0.19928700203308836,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 62,
+          "latency_ms": 5.5424160018446855,
+          "fps": 180.42673080966304,
+          "preprocess_ms": 1.4091999983065762,
+          "inference_ms": 3.9317410046351142,
+          "postprocess_ms": 0.20147499890299514,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 63,
+          "latency_ms": 5.627496997476555,
+          "fps": 177.6988953434206,
+          "preprocess_ms": 1.4451620008912869,
+          "inference_ms": 3.97641200106591,
+          "postprocess_ms": 0.20592299551935866,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 64,
+          "latency_ms": 5.686315998900682,
+          "fps": 175.86078582219614,
+          "preprocess_ms": 1.5070600056787953,
+          "inference_ms": 3.9863519996288233,
+          "postprocess_ms": 0.1929039935930632,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 65,
+          "latency_ms": 5.13207699987106,
+          "fps": 194.85288315532372,
+          "preprocess_ms": 1.3249650000943802,
+          "inference_ms": 3.633430998888798,
+          "postprocess_ms": 0.17368100088788196,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 66,
+          "latency_ms": 5.044782999902964,
+          "fps": 198.22458171525614,
+          "preprocess_ms": 1.2403569999150932,
+          "inference_ms": 3.6391710018506274,
+          "postprocess_ms": 0.1652549981372431,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 67,
+          "latency_ms": 5.029972999182064,
+          "fps": 198.8082242514249,
+          "preprocess_ms": 1.2363040004856884,
+          "inference_ms": 3.629839004133828,
+          "postprocess_ms": 0.16382999456254765,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 68,
+          "latency_ms": 5.037891001848038,
+          "fps": 198.49575936302955,
+          "preprocess_ms": 1.2332039987086318,
+          "inference_ms": 3.6415990034583956,
+          "postprocess_ms": 0.16308799968101084,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 69,
+          "latency_ms": 5.213224998442456,
+          "fps": 191.81984286094843,
+          "preprocess_ms": 1.2325739953666925,
+          "inference_ms": 3.6701280041597784,
+          "postprocess_ms": 0.3105229989159852,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 70,
+          "latency_ms": 5.1253979981993325,
+          "fps": 195.10679957952973,
+          "preprocess_ms": 1.3159789959900081,
+          "inference_ms": 3.6358820070745423,
+          "postprocess_ms": 0.17353699513478205,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 71,
+          "latency_ms": 5.037948998506181,
+          "fps": 198.49347428815045,
+          "preprocess_ms": 1.2319739980739541,
+          "inference_ms": 3.627363999839872,
+          "postprocess_ms": 0.17861100059235469,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 72,
+          "latency_ms": 5.0439879996702075,
+          "fps": 198.2558245708323,
+          "preprocess_ms": 1.2345840004854836,
+          "inference_ms": 3.6336789999040775,
+          "postprocess_ms": 0.17572499928064644,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 73,
+          "latency_ms": 5.048161998274736,
+          "fps": 198.09189965412378,
+          "preprocess_ms": 1.227623004524503,
+          "inference_ms": 3.6553399986587465,
+          "postprocess_ms": 0.16519899509148672,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 74,
+          "latency_ms": 5.041477998020127,
+          "fps": 198.3545302375051,
+          "preprocess_ms": 1.2225440004840493,
+          "inference_ms": 3.65332900400972,
+          "postprocess_ms": 0.16560499352635816,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 75,
+          "latency_ms": 5.037333998188842,
+          "fps": 198.5177080494458,
+          "preprocess_ms": 1.229114001034759,
+          "inference_ms": 3.6364240004331805,
+          "postprocess_ms": 0.17179599672090262,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 76,
+          "latency_ms": 5.04247700155247,
+          "fps": 198.3152327104559,
+          "preprocess_ms": 1.2425560053088702,
+          "inference_ms": 3.629842998634558,
+          "postprocess_ms": 0.17007799760904163,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 77,
+          "latency_ms": 5.034847999922931,
+          "fps": 198.61572782640252,
+          "preprocess_ms": 1.2347399970167316,
+          "inference_ms": 3.6347800050862134,
+          "postprocess_ms": 0.1653279978199862,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 78,
+          "latency_ms": 5.035923000832554,
+          "fps": 198.57333002007317,
+          "preprocess_ms": 1.2326650030445307,
+          "inference_ms": 3.6375280033098534,
+          "postprocess_ms": 0.16572999447816983,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 79,
+          "latency_ms": 5.034208996221423,
+          "fps": 198.6409385765629,
+          "preprocess_ms": 1.2288309953873977,
+          "inference_ms": 3.639187998487614,
+          "postprocess_ms": 0.16619000234641135,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 80,
+          "latency_ms": 5.027127997891512,
+          "fps": 198.92073574005317,
+          "preprocess_ms": 1.2215800015837885,
+          "inference_ms": 3.6401580000529066,
+          "postprocess_ms": 0.16538999625481665,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 81,
+          "latency_ms": 5.026464001275599,
+          "fps": 198.94701319779142,
+          "preprocess_ms": 1.2280279988772236,
+          "inference_ms": 3.6338630015961826,
+          "postprocess_ms": 0.16457300080219284,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 82,
+          "latency_ms": 5.013247995520942,
+          "fps": 199.4714805438399,
+          "preprocess_ms": 1.2201729987282306,
+          "inference_ms": 3.6296399994171225,
+          "postprocess_ms": 0.16343499737558886,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 83,
+          "latency_ms": 5.019080999772996,
+          "fps": 199.2396616124004,
+          "preprocess_ms": 1.2312889957684092,
+          "inference_ms": 3.623094999056775,
+          "postprocess_ms": 0.16469700494781137,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 84,
+          "latency_ms": 5.019424999773037,
+          "fps": 199.22600697195733,
+          "preprocess_ms": 1.2293740001041442,
+          "inference_ms": 3.6276870014262386,
+          "postprocess_ms": 0.1623639982426539,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 85,
+          "latency_ms": 5.074645996501204,
+          "fps": 197.0580806403966,
+          "preprocess_ms": 1.2293760009924881,
+          "inference_ms": 3.666042997792829,
+          "postprocess_ms": 0.17922699771588668,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 86,
+          "latency_ms": 5.294787006278057,
+          "fps": 188.86500983217923,
+          "preprocess_ms": 1.3029830006416887,
+          "inference_ms": 3.799433005042374,
+          "postprocess_ms": 0.1923710005939938,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 87,
+          "latency_ms": 5.530882001039572,
+          "fps": 180.80298943496575,
+          "preprocess_ms": 1.6745230022934265,
+          "inference_ms": 3.67316699703224,
+          "postprocess_ms": 0.18319200171390548,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 88,
+          "latency_ms": 5.095699001685716,
+          "fps": 196.24393035561724,
+          "preprocess_ms": 1.2857460023951717,
+          "inference_ms": 3.639531001681462,
+          "postprocess_ms": 0.1704219976090826,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 89,
+          "latency_ms": 5.166128001292236,
+          "fps": 193.5685681326254,
+          "preprocess_ms": 1.347812001768034,
+          "inference_ms": 3.6563520043273456,
+          "postprocess_ms": 0.16196399519685656,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 90,
+          "latency_ms": 5.051303000072949,
+          "fps": 197.96872212685687,
+          "preprocess_ms": 1.2462980012060143,
+          "inference_ms": 3.636594999989029,
+          "postprocess_ms": 0.1684099988779053,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 91,
+          "latency_ms": 5.063387994596269,
+          "fps": 197.4962221080463,
+          "preprocess_ms": 1.2419380000210367,
+          "inference_ms": 3.6547339987009764,
+          "postprocess_ms": 0.1667159958742559,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 92,
+          "latency_ms": 5.044322002504487,
+          "fps": 198.24269733444928,
+          "preprocess_ms": 1.2303609983064234,
+          "inference_ms": 3.6464470031205565,
+          "postprocess_ms": 0.1675140010775067,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 93,
+          "latency_ms": 5.056818001321517,
+          "fps": 197.75281604729818,
+          "preprocess_ms": 1.2381960041238926,
+          "inference_ms": 3.651956998510286,
+          "postprocess_ms": 0.16666499868733808,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 94,
+          "latency_ms": 5.072218998975586,
+          "fps": 197.15237062949484,
+          "preprocess_ms": 1.2506130005931482,
+          "inference_ms": 3.6568200011970475,
+          "postprocess_ms": 0.16478599718539044,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 95,
+          "latency_ms": 5.055409004853573,
+          "fps": 197.80793186860348,
+          "preprocess_ms": 1.234332004969474,
+          "inference_ms": 3.657032000774052,
+          "postprocess_ms": 0.16404499911004677,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 96,
+          "latency_ms": 5.035914000472985,
+          "fps": 198.5736849171923,
+          "preprocess_ms": 1.2311770042288117,
+          "inference_ms": 3.6397040021256544,
+          "postprocess_ms": 0.16503299411851913,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 97,
+          "latency_ms": 5.028113002481405,
+          "fps": 198.8817672766093,
+          "preprocess_ms": 1.2273430038476363,
+          "inference_ms": 3.636223998910282,
+          "postprocess_ms": 0.1645459997234866,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 98,
+          "latency_ms": 5.036893002397846,
+          "fps": 198.535088897847,
+          "preprocess_ms": 1.238994998857379,
+          "inference_ms": 3.631434003182221,
+          "postprocess_ms": 0.16646400035824627,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 99,
+          "latency_ms": 5.036232003476471,
+          "fps": 198.56114637087967,
+          "preprocess_ms": 1.2308840014156885,
+          "inference_ms": 3.641217997937929,
+          "postprocess_ms": 0.16413000412285328,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 100,
+          "latency_ms": 5.08887800242519,
+          "fps": 196.50697059812265,
+          "preprocess_ms": 1.246462001290638,
+          "inference_ms": 3.670183999929577,
+          "postprocess_ms": 0.17223200120497495,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 101,
+          "latency_ms": 5.1621090024127625,
+          "fps": 193.71927240060242,
+          "preprocess_ms": 1.2780620018020272,
+          "inference_ms": 3.6934759991709143,
+          "postprocess_ms": 0.19057100143982098,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 102,
+          "latency_ms": 6.3817049958743155,
+          "fps": 156.6979358410466,
+          "preprocess_ms": 1.9412490000831895,
+          "inference_ms": 4.228875994158443,
+          "postprocess_ms": 0.21158000163268298,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 103,
+          "latency_ms": 5.315157999575604,
+          "fps": 188.14116157597692,
+          "preprocess_ms": 1.430443000572268,
+          "inference_ms": 3.701679001096636,
+          "postprocess_ms": 0.18303599790669978,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 104,
+          "latency_ms": 5.074022003100254,
+          "fps": 197.0823144615839,
+          "preprocess_ms": 1.2551880063256249,
+          "inference_ms": 3.6486739991232753,
+          "postprocess_ms": 0.17015999765135348,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 105,
+          "latency_ms": 5.087083998660091,
+          "fps": 196.57627046523987,
+          "preprocess_ms": 1.2632910002139397,
+          "inference_ms": 3.653628002211917,
+          "postprocess_ms": 0.17016499623423442,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 106,
+          "latency_ms": 5.045009995228611,
+          "fps": 198.215662792693,
+          "preprocess_ms": 1.240892001078464,
+          "inference_ms": 3.634530999988783,
+          "postprocess_ms": 0.1695869941613637,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 107,
+          "latency_ms": 5.050266001489945,
+          "fps": 198.0093721211867,
+          "preprocess_ms": 1.241657002537977,
+          "inference_ms": 3.635102999396622,
+          "postprocess_ms": 0.17350599955534562,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 108,
+          "latency_ms": 5.04152199573582,
+          "fps": 198.35279918362193,
+          "preprocess_ms": 1.2243439996382222,
+          "inference_ms": 3.650580001703929,
+          "postprocess_ms": 0.16659799439366907,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 109,
+          "latency_ms": 5.057714995928109,
+          "fps": 197.71774423926323,
+          "preprocess_ms": 1.2364619979052804,
+          "inference_ms": 3.6523960006888956,
+          "postprocess_ms": 0.16885699733393267,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 110,
+          "latency_ms": 5.070726998383179,
+          "fps": 197.2103803495739,
+          "preprocess_ms": 1.2327380027272739,
+          "inference_ms": 3.667602999485098,
+          "postprocess_ms": 0.17038599617080763,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 111,
+          "latency_ms": 5.079611000837758,
+          "fps": 196.86546860282695,
+          "preprocess_ms": 1.247065003553871,
+          "inference_ms": 3.6637910015997477,
+          "postprocess_ms": 0.16875499568413943,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 112,
+          "latency_ms": 5.035693997342605,
+          "fps": 198.5823603514653,
+          "preprocess_ms": 1.2357189989415929,
+          "inference_ms": 3.635301000031177,
+          "postprocess_ms": 0.16467399836983532,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 113,
+          "latency_ms": 5.056679001427256,
+          "fps": 197.7582519510826,
+          "preprocess_ms": 1.23787500342587,
+          "inference_ms": 3.654788997664582,
+          "postprocess_ms": 0.1640150003368035,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 114,
+          "latency_ms": 5.052273998444434,
+          "fps": 197.93067444637686,
+          "preprocess_ms": 1.2343179987510666,
+          "inference_ms": 3.655537002487108,
+          "postprocess_ms": 0.16241899720625952,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 115,
+          "latency_ms": 5.05152800178621,
+          "fps": 197.95990433912314,
+          "preprocess_ms": 1.2291349994484335,
+          "inference_ms": 3.6590829986380413,
+          "postprocess_ms": 0.1633100036997348,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 116,
+          "latency_ms": 5.026784994697664,
+          "fps": 198.93430911702342,
+          "preprocess_ms": 1.2272210005903617,
+          "inference_ms": 3.637169997091405,
+          "postprocess_ms": 0.16239399701589718,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 117,
+          "latency_ms": 5.043880999437533,
+          "fps": 198.26003034399793,
+          "preprocess_ms": 1.2367500021355227,
+          "inference_ms": 3.643047995865345,
+          "postprocess_ms": 0.16408300143666565,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 118,
+          "latency_ms": 5.051389998698141,
+          "fps": 197.9653125689608,
+          "preprocess_ms": 1.2479200013331138,
+          "inference_ms": 3.6398919983184896,
+          "postprocess_ms": 0.16357799904653803,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 119,
+          "latency_ms": 5.038408999098465,
+          "fps": 198.47535207620749,
+          "preprocess_ms": 1.2321390022407286,
+          "inference_ms": 3.6410350003279746,
+          "postprocess_ms": 0.1652349965297617,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 120,
+          "latency_ms": 5.073569001979195,
+          "fps": 197.0999112478614,
+          "preprocess_ms": 1.2393860015436076,
+          "inference_ms": 3.656269997009076,
+          "postprocess_ms": 0.17791300342651084,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 121,
+          "latency_ms": 5.039422001573257,
+          "fps": 198.43545543274803,
+          "preprocess_ms": 1.236772004631348,
+          "inference_ms": 3.6302029984653927,
+          "postprocess_ms": 0.17244699847651646,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 122,
+          "latency_ms": 5.019677002565004,
+          "fps": 199.21600523081668,
+          "preprocess_ms": 1.225487001647707,
+          "inference_ms": 3.6303719971328974,
+          "postprocess_ms": 0.16381800378439948,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 123,
+          "latency_ms": 5.023928999435157,
+          "fps": 199.0473989804455,
+          "preprocess_ms": 1.2188440014142543,
+          "inference_ms": 3.6398930024006404,
+          "postprocess_ms": 0.16519199562026188,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 124,
+          "latency_ms": 5.0232840003445745,
+          "fps": 199.07295703993734,
+          "preprocess_ms": 1.2310789970797487,
+          "inference_ms": 3.627065001637675,
+          "postprocess_ms": 0.16514000162715092,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 125,
+          "latency_ms": 5.028384002798703,
+          "fps": 198.87104871931402,
+          "preprocess_ms": 1.2359640022623353,
+          "inference_ms": 3.627981997851748,
+          "postprocess_ms": 0.16443800268461928,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 126,
+          "latency_ms": 5.037071998231113,
+          "fps": 198.5280338163071,
+          "preprocess_ms": 1.229538000188768,
+          "inference_ms": 3.641825998784043,
+          "postprocess_ms": 0.16570799925830215,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 127,
+          "latency_ms": 5.036157999711577,
+          "fps": 198.5640641253254,
+          "preprocess_ms": 1.236019998032134,
+          "inference_ms": 3.6343180036055855,
+          "postprocess_ms": 0.16581999807385728,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 128,
+          "latency_ms": 5.041263000748586,
+          "fps": 198.36298956263704,
+          "preprocess_ms": 1.233504997799173,
+          "inference_ms": 3.6489709964371286,
+          "postprocess_ms": 0.15878700651228428,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 129,
+          "latency_ms": 5.045394005719572,
+          "fps": 198.2005763804328,
+          "preprocess_ms": 1.229223002155777,
+          "inference_ms": 3.652387000329327,
+          "postprocess_ms": 0.1637840032344684,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 130,
+          "latency_ms": 5.030590000387747,
+          "fps": 198.78384044871916,
+          "preprocess_ms": 1.2298809961066581,
+          "inference_ms": 3.6355449992697686,
+          "postprocess_ms": 0.16516400501132011,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 131,
+          "latency_ms": 5.010656001104508,
+          "fps": 199.5746664268248,
+          "preprocess_ms": 1.2248210041434504,
+          "inference_ms": 3.6206199947628193,
+          "postprocess_ms": 0.16521500219823793,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 132,
+          "latency_ms": 5.0154679993283935,
+          "fps": 199.38318819577896,
+          "preprocess_ms": 1.240630001120735,
+          "inference_ms": 3.611350002756808,
+          "postprocess_ms": 0.16348799545085058,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 133,
+          "latency_ms": 5.014552996726707,
+          "fps": 199.41956953147346,
+          "preprocess_ms": 1.234997995197773,
+          "inference_ms": 3.6180070019327104,
+          "postprocess_ms": 0.16154799959622324,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 134,
+          "latency_ms": 5.010380002204329,
+          "fps": 199.58566008167995,
+          "preprocess_ms": 1.2296400018385611,
+          "inference_ms": 3.618490998633206,
+          "postprocess_ms": 0.16224900173256174,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 135,
+          "latency_ms": 5.383873998653144,
+          "fps": 185.73985948596956,
+          "preprocess_ms": 1.5034139942144975,
+          "inference_ms": 3.7019170049461536,
+          "postprocess_ms": 0.17854299949249253,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 136,
+          "latency_ms": 5.0684920061030425,
+          "fps": 197.2973418515578,
+          "preprocess_ms": 1.2822710050386377,
+          "inference_ms": 3.618871000071522,
+          "postprocess_ms": 0.167350000992883,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 137,
+          "latency_ms": 5.021842000132892,
+          "fps": 199.13011997859294,
+          "preprocess_ms": 1.2461060032364912,
+          "inference_ms": 3.612274995248299,
+          "postprocess_ms": 0.16346100164810196,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 138,
+          "latency_ms": 5.021101998863742,
+          "fps": 199.15946742892228,
+          "preprocess_ms": 1.2365360016701743,
+          "inference_ms": 3.621349998866208,
+          "postprocess_ms": 0.16321599832735956,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 139,
+          "latency_ms": 5.04312999692047,
+          "fps": 198.28955442565206,
+          "preprocess_ms": 1.2643860027310438,
+          "inference_ms": 3.6159859955660067,
+          "postprocess_ms": 0.16275799862341955,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 140,
+          "latency_ms": 5.315550995874219,
+          "fps": 188.1272516764813,
+          "preprocess_ms": 1.402914000209421,
+          "inference_ms": 3.7313799984985963,
+          "postprocess_ms": 0.18125699716620147,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 141,
+          "latency_ms": 5.149415002961177,
+          "fps": 194.1968164199135,
+          "preprocess_ms": 1.3339170036488213,
+          "inference_ms": 3.632173000369221,
+          "postprocess_ms": 0.18332499894313514,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 142,
+          "latency_ms": 5.165679001947865,
+          "fps": 193.58539305731577,
+          "preprocess_ms": 1.2772600020980462,
+          "inference_ms": 3.709350996359717,
+          "postprocess_ms": 0.17906800349010155,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 143,
+          "latency_ms": 5.110005004098639,
+          "fps": 195.69452460377607,
+          "preprocess_ms": 1.318216003710404,
+          "inference_ms": 3.622153999458533,
+          "postprocess_ms": 0.16963500092970207,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 144,
+          "latency_ms": 5.050787003710866,
+          "fps": 197.98894692357638,
+          "preprocess_ms": 1.2761929974658415,
+          "inference_ms": 3.6068230037926696,
+          "postprocess_ms": 0.16777100245235488,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 145,
+          "latency_ms": 5.057609996583778,
+          "fps": 197.72184899101782,
+          "preprocess_ms": 1.2765709980158135,
+          "inference_ms": 3.6164929988444783,
+          "postprocess_ms": 0.1645459997234866,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 146,
+          "latency_ms": 5.067646998213604,
+          "fps": 197.33024031715507,
+          "preprocess_ms": 1.2883210001746193,
+          "inference_ms": 3.6112230009166524,
+          "postprocess_ms": 0.16810299712233245,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 147,
+          "latency_ms": 5.049441002483945,
+          "fps": 198.04172372903756,
+          "preprocess_ms": 1.2706880006589927,
+          "inference_ms": 3.615084002376534,
+          "postprocess_ms": 0.16366899944841862,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 148,
+          "latency_ms": 5.011384004319552,
+          "fps": 199.54567423650872,
+          "preprocess_ms": 1.2599820038303733,
+          "inference_ms": 3.594615998736117,
+          "postprocess_ms": 0.156786001753062,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 149,
+          "latency_ms": 5.029439998907037,
+          "fps": 198.8292931653053,
+          "preprocess_ms": 1.2608190008904785,
+          "inference_ms": 3.6048990004928783,
+          "postprocess_ms": 0.16372199752368033,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 150,
+          "latency_ms": 5.074803993920796,
+          "fps": 197.05194549344546,
+          "preprocess_ms": 1.2778349992004223,
+          "inference_ms": 3.623708995291963,
+          "postprocess_ms": 0.17325999942841008,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 151,
+          "latency_ms": 5.176774000574369,
+          "fps": 193.17049573519122,
+          "preprocess_ms": 1.287447004870046,
+          "inference_ms": 3.700889996252954,
+          "postprocess_ms": 0.18843699945136905,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 152,
+          "latency_ms": 6.261025999265257,
+          "fps": 159.7182315034871,
+          "preprocess_ms": 1.7987669998547062,
+          "inference_ms": 4.241391994582955,
+          "postprocess_ms": 0.22086700482759625,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 153,
+          "latency_ms": 5.482225002197083,
+          "fps": 182.4076902351208,
+          "preprocess_ms": 1.4561599964508787,
+          "inference_ms": 3.8418160038418137,
+          "postprocess_ms": 0.18424900190439075,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 154,
+          "latency_ms": 5.110698002681602,
+          "fps": 195.66798888826855,
+          "preprocess_ms": 1.3089440035400912,
+          "inference_ms": 3.62905599467922,
+          "postprocess_ms": 0.17269800446229056,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 155,
+          "latency_ms": 5.072888998256531,
+          "fps": 197.1263318286057,
+          "preprocess_ms": 1.268113002879545,
+          "inference_ms": 3.637780995632056,
+          "postprocess_ms": 0.16699499974492937,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 156,
+          "latency_ms": 5.073545005870983,
+          "fps": 197.10084346208112,
+          "preprocess_ms": 1.2794580034096725,
+          "inference_ms": 3.623281001637224,
+          "postprocess_ms": 0.17080600082408637,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 157,
+          "latency_ms": 5.076317000202835,
+          "fps": 196.9932137729072,
+          "preprocess_ms": 1.2788239982910454,
+          "inference_ms": 3.6193660052958876,
+          "postprocess_ms": 0.1781269966159016,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 158,
+          "latency_ms": 5.0491340007283725,
+          "fps": 198.05376523097686,
+          "preprocess_ms": 1.251148001756519,
+          "inference_ms": 3.623998003604356,
+          "postprocess_ms": 0.1739879953674972,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 159,
+          "latency_ms": 5.108468001708388,
+          "fps": 195.753403890477,
+          "preprocess_ms": 1.2483520040404983,
+          "inference_ms": 3.691958998388145,
+          "postprocess_ms": 0.16815699927974492,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 160,
+          "latency_ms": 5.063656004494987,
+          "fps": 197.48576900016587,
+          "preprocess_ms": 1.259841003047768,
+          "inference_ms": 3.6345560001791455,
+          "postprocess_ms": 0.16925900126807392,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 161,
+          "latency_ms": 5.059082999650855,
+          "fps": 197.66428027945253,
+          "preprocess_ms": 1.2720749946311116,
+          "inference_ms": 3.6205890064593405,
+          "postprocess_ms": 0.16641899856040254,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 162,
+          "latency_ms": 5.05452899960801,
+          "fps": 197.84237068924764,
+          "preprocess_ms": 1.2557390000438318,
+          "inference_ms": 3.632236002886202,
+          "postprocess_ms": 0.1665539966779761,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 163,
+          "latency_ms": 5.201258005399723,
+          "fps": 192.2611796918828,
+          "preprocess_ms": 1.2526280042948201,
+          "inference_ms": 3.72429200069746,
+          "postprocess_ms": 0.22433800040744245,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 164,
+          "latency_ms": 5.094628999358974,
+          "fps": 196.28514659768626,
+          "preprocess_ms": 1.291797001613304,
+          "inference_ms": 3.6314309982117265,
+          "postprocess_ms": 0.17140099953394383,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 165,
+          "latency_ms": 5.165918999409769,
+          "fps": 193.57639949721528,
+          "preprocess_ms": 1.27419299678877,
+          "inference_ms": 3.705027003888972,
+          "postprocess_ms": 0.18669899873202667,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 166,
+          "latency_ms": 5.0883349977084436,
+          "fps": 196.52794095718048,
+          "preprocess_ms": 1.2788110034307465,
+          "inference_ms": 3.640531998826191,
+          "postprocess_ms": 0.16899199545150623,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 167,
+          "latency_ms": 5.161203000170644,
+          "fps": 193.75327805686717,
+          "preprocess_ms": 1.2604459989233874,
+          "inference_ms": 3.733600002306048,
+          "postprocess_ms": 0.16715699894120917,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 168,
+          "latency_ms": 5.091097998956684,
+          "fps": 196.42128283622304,
+          "preprocess_ms": 1.2877400004072115,
+          "inference_ms": 3.636483001173474,
+          "postprocess_ms": 0.16687499737599865,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 169,
+          "latency_ms": 5.0643499998841435,
+          "fps": 197.4587064525313,
+          "preprocess_ms": 1.2645719980355352,
+          "inference_ms": 3.635526998550631,
+          "postprocess_ms": 0.16425100329797715,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 170,
+          "latency_ms": 5.0364690032438375,
+          "fps": 198.55180273241635,
+          "preprocess_ms": 1.2464539977372624,
+          "inference_ms": 3.626976002124138,
+          "postprocess_ms": 0.16303900338243693,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 171,
+          "latency_ms": 5.021870994823985,
+          "fps": 199.12897026440834,
+          "preprocess_ms": 1.2356719962554052,
+          "inference_ms": 3.62329299969133,
+          "postprocess_ms": 0.16290599887724966,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 172,
+          "latency_ms": 5.011163004382979,
+          "fps": 199.55447450529087,
+          "preprocess_ms": 1.2346229996182956,
+          "inference_ms": 3.610388004744891,
+          "postprocess_ms": 0.16615200001979247,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 173,
+          "latency_ms": 5.019509000703692,
+          "fps": 199.22267294665843,
+          "preprocess_ms": 1.2472570015233941,
+          "inference_ms": 3.6088580018258654,
+          "postprocess_ms": 0.16339399735443294,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 174,
+          "latency_ms": 5.013772999518551,
+          "fps": 199.45059341458526,
+          "preprocess_ms": 1.2434769960236736,
+          "inference_ms": 3.6063760053366423,
+          "postprocess_ms": 0.1639199981582351,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 175,
+          "latency_ms": 5.017157003749162,
+          "fps": 199.31606669927447,
+          "preprocess_ms": 1.2392080025165342,
+          "inference_ms": 3.6133520043222234,
+          "postprocess_ms": 0.16459699691040441,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 176,
+          "latency_ms": 5.107332006446086,
+          "fps": 195.79694422408335,
+          "preprocess_ms": 1.2404760054778308,
+          "inference_ms": 3.6840949978795834,
+          "postprocess_ms": 0.18276100308867171,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 177,
+          "latency_ms": 5.05567900108872,
+          "fps": 197.79736802606615,
+          "preprocess_ms": 1.2723269974230789,
+          "inference_ms": 3.6106249972363003,
+          "postprocess_ms": 0.1727270064293407,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 178,
+          "latency_ms": 5.100334994494915,
+          "fps": 196.0655527684667,
+          "preprocess_ms": 1.2379169929772615,
+          "inference_ms": 3.6874810029985383,
+          "postprocess_ms": 0.17493699851911515,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 179,
+          "latency_ms": 5.063389995484613,
+          "fps": 197.49614406391203,
+          "preprocess_ms": 1.2698930004262365,
+          "inference_ms": 3.6269970005378127,
+          "postprocess_ms": 0.16649999452056363,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 180,
+          "latency_ms": 5.126734002260491,
+          "fps": 195.0559556160077,
+          "preprocess_ms": 1.245587998710107,
+          "inference_ms": 3.7026390054961666,
+          "postprocess_ms": 0.17850699805421755,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 181,
+          "latency_ms": 5.083803996967617,
+          "fps": 196.70309882058376,
+          "preprocess_ms": 1.2836169989896007,
+          "inference_ms": 3.633704996900633,
+          "postprocess_ms": 0.16648200107738376,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 182,
+          "latency_ms": 5.124814000737388,
+          "fps": 195.12903294755952,
+          "preprocess_ms": 1.248528998985421,
+          "inference_ms": 3.6988280044170097,
+          "postprocess_ms": 0.17745699733495712,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 183,
+          "latency_ms": 5.058563001512084,
+          "fps": 197.68459930242724,
+          "preprocess_ms": 1.275517002795823,
+          "inference_ms": 3.6156219939584844,
+          "postprocess_ms": 0.16742400475777686,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 184,
+          "latency_ms": 5.115600994031411,
+          "fps": 195.48045306245396,
+          "preprocess_ms": 1.2368159950710833,
+          "inference_ms": 3.695352999784518,
+          "postprocess_ms": 0.18343199917580932,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 185,
+          "latency_ms": 5.065889999968931,
+          "fps": 197.39868019363487,
+          "preprocess_ms": 1.2776610019500367,
+          "inference_ms": 3.6166400022921152,
+          "postprocess_ms": 0.1715889957267791,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 186,
+          "latency_ms": 5.110183003125712,
+          "fps": 195.687708128718,
+          "preprocess_ms": 1.23719700059155,
+          "inference_ms": 3.6960490033379756,
+          "postprocess_ms": 0.17693699919618666,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 187,
+          "latency_ms": 5.083176998596173,
+          "fps": 196.72736170237062,
+          "preprocess_ms": 1.309079998463858,
+          "inference_ms": 3.6151140011497773,
+          "postprocess_ms": 0.15898299898253754,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 188,
+          "latency_ms": 5.1336640026420355,
+          "fps": 194.79264702274065,
+          "preprocess_ms": 1.244586004759185,
+          "inference_ms": 3.7126429961062968,
+          "postprocess_ms": 0.1764350017765537,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 189,
+          "latency_ms": 5.069295002613217,
+          "fps": 197.2660891671329,
+          "preprocess_ms": 1.272110006539151,
+          "inference_ms": 3.630041996075306,
+          "postprocess_ms": 0.16714299999875948,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 190,
+          "latency_ms": 5.129755998495966,
+          "fps": 194.9410459860465,
+          "preprocess_ms": 1.2450869980966672,
+          "inference_ms": 3.7051350009278394,
+          "postprocess_ms": 0.17953399947145954,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 191,
+          "latency_ms": 5.12655200145673,
+          "fps": 195.06288041472047,
+          "preprocess_ms": 1.2899190041935071,
+          "inference_ms": 3.6637269950006157,
+          "postprocess_ms": 0.17290600226260722,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 192,
+          "latency_ms": 5.167638999409974,
+          "fps": 193.51196941469348,
+          "preprocess_ms": 1.276058996154461,
+          "inference_ms": 3.705453003931325,
+          "postprocess_ms": 0.18612699932418764,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 193,
+          "latency_ms": 5.071915998996701,
+          "fps": 197.16414865660522,
+          "preprocess_ms": 1.278112998988945,
+          "inference_ms": 3.6248180040274747,
+          "postprocess_ms": 0.16898499598028138,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 194,
+          "latency_ms": 5.110427002364304,
+          "fps": 195.67836494628665,
+          "preprocess_ms": 1.243065002199728,
+          "inference_ms": 3.6903369982610457,
+          "postprocess_ms": 0.1770250019035302,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 195,
+          "latency_ms": 5.0532140012364835,
+          "fps": 197.8938552286342,
+          "preprocess_ms": 1.276174996746704,
+          "inference_ms": 3.610015999583993,
+          "postprocess_ms": 0.16702300490578637,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 196,
+          "latency_ms": 5.115198997373227,
+          "fps": 195.49581561020855,
+          "preprocess_ms": 1.2418889964465052,
+          "inference_ms": 3.698202002851758,
+          "postprocess_ms": 0.1751079980749637,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 197,
+          "latency_ms": 5.05923799937591,
+          "fps": 197.65822444473983,
+          "preprocess_ms": 1.2794569993275218,
+          "inference_ms": 3.61418000102276,
+          "postprocess_ms": 0.16560099902562797,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 198,
+          "latency_ms": 5.1288210015627556,
+          "fps": 194.97658422770053,
+          "preprocess_ms": 1.2454720053938217,
+          "inference_ms": 3.705082999658771,
+          "postprocess_ms": 0.17826599651016295,
+          "num_detections": 1
+        },
+        {
+          "frame_idx": 199,
+          "latency_ms": 5.166442999325227,
+          "fps": 193.55676625690188,
+          "preprocess_ms": 1.2742719991365448,
+          "inference_ms": 3.6115620023338124,
+          "postprocess_ms": 0.2806089978548698,
+          "num_detections": 1
+        }
+      ],
+      "system_samples": [
+        {
+          "timestamp_s": 0.0002543439986766316,
+          "gpu_util_pct": 0.0,
+          "gpu_mem_mb": 778.25,
+          "cpu_util_pct": 0.0,
+          "ram_mb": 10445.51953125
+        },
+        {
+          "timestamp_s": 0.10092033100227127,
+          "gpu_util_pct": 0.0,
+          "gpu_mem_mb": 778.25,
+          "cpu_util_pct": 78.3,
+          "ram_mb": 10451.1953125
+        },
+        {
+          "timestamp_s": 0.20127209200290963,
+          "gpu_util_pct": 0.0,
+          "gpu_mem_mb": 778.25,
+          "cpu_util_pct": 75.5,
+          "ram_mb": 10451.1953125
+        },
+        {
+          "timestamp_s": 0.3025388969981577,
+          "gpu_util_pct": 0.0,
+          "gpu_mem_mb": 778.25,
+          "cpu_util_pct": 81.2,
+          "ram_mb": 10452.41015625
+        },
+        {
+          "timestamp_s": 0.4029552150022937,
+          "gpu_util_pct": 0.0,
+          "gpu_mem_mb": 778.25,
+          "cpu_util_pct": 89.9,
+          "ram_mb": 10446.5234375
+        },
+        {
+          "timestamp_s": 0.5035027429985348,
+          "gpu_util_pct": 0.0,
+          "gpu_mem_mb": 778.25,
+          "cpu_util_pct": 75.9,
+          "ram_mb": 10446.40625
+        },
+        {
+          "timestamp_s": 0.6039002670004265,
+          "gpu_util_pct": 0.0,
+          "gpu_mem_mb": 778.25,
+          "cpu_util_pct": 76.3,
+          "ram_mb": 10446.40625
+        },
+        {
+          "timestamp_s": 0.7042562029964756,
+          "gpu_util_pct": 0.0,
+          "gpu_mem_mb": 778.25,
+          "cpu_util_pct": 75.2,
+          "ram_mb": 10446.80078125
+        },
+        {
+          "timestamp_s": 0.8046212609988288,
+          "gpu_util_pct": 0.0,
+          "gpu_mem_mb": 778.25,
+          "cpu_util_pct": 75.8,
+          "ram_mb": 10450.45703125
+        },
+        {
+          "timestamp_s": 0.9049762650029152,
+          "gpu_util_pct": 0.0,
+          "gpu_mem_mb": 778.25,
+          "cpu_util_pct": 76.7,
+          "ram_mb": 10450.45703125
+        },
+        {
+          "timestamp_s": 1.0053334789990913,
+          "gpu_util_pct": 55.0,
+          "gpu_mem_mb": 778.25,
+          "cpu_util_pct": 75.2,
+          "ram_mb": 10450.45703125
+        }
+      ],
+      "fps_mean": 190.6762652089149,
+      "fps_max": 199.58566008167995,
+      "latency_mean_ms": 5.315585625103267,
+      "latency_p50_ms": 5.1038335004705,
+      "latency_p95_ms": 6.1169110940682,
+      "latency_p99_ms": 8.859230628004292,
+      "latency_min_ms": 5.010380002204329,
+      "latency_max_ms": 15.703247998317238,
+      "gpu_util_mean": 5.0,
+      "gpu_util_max": 55.0,
+      "gpu_mem_mean_mb": 778.25,
+      "gpu_mem_max_mb": 778.25,
+      "cpu_util_mean": 70.9090909090909,
+      "ram_mean_mb": 10448.89346590909,
+      "total_frames": 200
+    }
+  }
+}
