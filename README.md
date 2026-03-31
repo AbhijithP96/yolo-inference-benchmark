@@ -1,5 +1,5 @@
 # YOLOv8 Inference Benchmark
-### PyTorch vs ONNX Runtime vs TensorRT — Real-Time Webcam Inference
+### PyTorch vs ONNX Runtime vs TensorRT with Real-Time Webcam Inference
 
 ![Summary](results/charts/00_summary_dashboard.png)
 
@@ -7,7 +7,7 @@
 
 ---
 
-## Results — NVIDIA GeForce RTX 3050 Laptop GPU (4GB VRAM)
+## Results on NVIDIA GeForce RTX 3050 Laptop GPU (4GB VRAM)
 
 | Metric | PyTorch | ONNX Runtime | TensorRT |
 |---|---|---|---|
