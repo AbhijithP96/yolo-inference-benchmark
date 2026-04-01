@@ -151,6 +151,8 @@ cd yolo-inference-benchmark
 ### Install PyTorch (CUDA 12.8) first — order matters
 
 ```bash
+uv sync
+
 uv pip install torch torchvision \
   --index-url https://download.pytorch.org/whl/cu128
 ```
@@ -158,7 +160,6 @@ uv pip install torch torchvision \
 ### Install remaining dependencies
 
 ```bash
-uv sync
 
 # install ultralytics without overwriting your torch build
 uv pip install ultralytics --no-deps
@@ -173,6 +174,10 @@ uv pip install tensorrt-cu12
 
 # PyCUDA
 uv pip install pycuda
+
+# PyNVML for GPU monitoring
+uv pip install pynvml
+
 ```
 
 ### Verify installation
